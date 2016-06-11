@@ -9,9 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tindre.love.quim.quimtindre.MainActivity">
 
-    <com.andtinder.view.CardContainer
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/layoutview"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rotation_degrees="16"
+        android:id="@+id/frame"
+        app:max_visible="4"
+        app:min_adapter_stack="6" />
 </RelativeLayout>
