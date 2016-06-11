@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59910451887",
+    "firebase_url": "https://quimtindre.firebaseio.com",
+    "project_id": "quimtindre",
+    "storage_bucket": "quimtindre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59910451887:android:1fc98a8b08ab7d45",
+        "android_client_info": {
+          "package_name": "tindre.love.quim.quimtindre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59910451887-pj73pniuqcqq33grc7m8srfr89t5ip4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2uE6m4f89uJU6tNPrJG4xbCB_J0vvpt0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
