@@ -3,10 +3,8 @@ package tindre.love.quim.quimtindre.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -18,6 +16,7 @@ import tindre.love.quim.quimtindre.model.GreetingCard;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final static String GREETING_CARDS = "greetingCards";
     private DatabaseReference mGreetingCardDatabase;
     private FirebaseAdapter<GreetingCard> adapter;
 
@@ -30,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
 
         SwipeFlingAdapterView flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
-        mGreetingCardDatabase = FirebaseDatabase.getInstance().getReference().child("greetingCards");
+        mGreetingCardDatabase = FirebaseDatabase.getInstance().getReference().child(GREETING_CARDS);
 
         adapter = new FirebaseAdapter<GreetingCard>(mGreetingCardDatabase, GreetingCard.class, R.layout.tinder, this) {
             @Override
             protected void populateView(View v, GreetingCard model) {
-                TextView viewDescription = (TextView) v.findViewById(R.id.description);
-                viewDescription.setText(model.getText());
+                TextView viewDescription = (TextView) v.findViewById(R.id.user_name);
+                viewDescription.setText(model.getAuthor());
             }
         };
 

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Quimder</string>
     <string name="main_activity_title">Quimder</string>
+    <string name="user_name_test">Pepe Botella</string>
+    <string name="user_photo_description">User Photo</string>
+    <string name="user_age_test">20</string>
+    <string name="user_description_test">Founder at Creative Productions</string>
 </resources>
