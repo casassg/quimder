@@ -53,17 +53,14 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
         this.mModelClass = mModelClass;
         this.mLayout = mLayout;
         mInflater = activity.getLayoutInflater();
-        mModels = new ArrayList<T>();
-        mKeys = new ArrayList<String>();
+        mModels = new ArrayList<>();
+        mKeys = new ArrayList<>();
         // Look for all child events. We will then map them to our own internal ArrayList, which backs ListView
         mListener = this.mRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String previousChildName) {
-
                 T model = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
                 String key = dataSnapshot.getKey();
-
-                // Insert into the correct location, based on previousChildName
                 if (previousChildName == null) {
                     mModels.add(0, model);
                     mKeys.add(0, key);
@@ -78,40 +75,29 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
                         mKeys.add(nextIndex, key);
                     }
                 }
-
                 notifyDataSetChanged();
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                // One of the mModels changed. Replace it in our list and name mapping
                 String key = dataSnapshot.getKey();
                 T newModel = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
                 int index = mKeys.indexOf(key);
-
                 mModels.set(index, newModel);
-
-
                 notifyDataSetChanged();
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-                // A model was removed from the list. Remove it from our list and the name mapping
                 String key = dataSnapshot.getKey();
                 int index = mKeys.indexOf(key);
-
                 mKeys.remove(index);
                 mModels.remove(index);
-
                 notifyDataSetChanged();
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String previousChildName) {
-
-                // A model changed position in the list. Update our list accordingly
                 String key = dataSnapshot.getKey();
                 T newModel = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
                 int index = mKeys.indexOf(key);
@@ -145,7 +131,6 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
 
 
     public void cleanup() {
-        // We're being destroyed, let go of our mListener and forget about all of the mModels
         mRef.removeEventListener(mListener);
         mModels.clear();
         mKeys.clear();
@@ -173,7 +158,6 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
         }
 
         T model = mModels.get(i);
-        // Call out to subclass to marshall this model into the provided view
         populateView(view, model);
         return view;
     }

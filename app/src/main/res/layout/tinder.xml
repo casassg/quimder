@@ -8,21 +8,77 @@
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view"
         android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
         card_view:cardCornerRadius="4dp">
 
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/image"
-            android:layout_gravity="center_horizontal" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:id="@+id/user_photo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/quimder_logo_1"
+                android:contentDescription="@string/user_photo_description" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:id="@+id/descripcio"
-            android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/user_layout"
+                android:layout_below="@+id/user_photo">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_name"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:text="@string/user_name_test"/>
+
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_age"
+                    android:textSize="16sp"
+                    android:text="@string/user_age_test"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/user_layout_2"
+                android:layout_below="@+id/user_layout"
+                android:layout_alignParentBottom="true">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_description"
+                    android:text="@string/user_description_test"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
     </android.support.v7.widget.CardView>
 
 </LinearLayout>
