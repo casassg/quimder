@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         app:rotation_degrees="16"
         android:id="@+id/frame"
-        app:max_visible="1"
+        app:max_visible="3"
         app:min_adapter_stack="6" />
 
 </RelativeLayout>

@@ -61,6 +61,7 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
             public void onChildAdded(DataSnapshot dataSnapshot, String previousChildName) {
                 T model = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
                 String key = dataSnapshot.getKey();
+                loadData(key);
                 if (previousChildName == null) {
                     mModels.add(0, model);
                     mKeys.add(0, key);
@@ -128,6 +129,7 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
         });
     }
 
+    protected abstract void loadData(String key);
 
 
     public void cleanup() {

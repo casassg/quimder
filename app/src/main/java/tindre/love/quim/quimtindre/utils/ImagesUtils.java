@@ -1,22 +1,22 @@
 package tindre.love.quim.quimtindre.utils;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.PorterDuff;
-import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.util.Log;
-import android.widget.ImageView;
+
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import tindre.love.quim.quimtindre.R;
+
 import tindre.love.quim.quimtindre.model.GreetingCard;
 
 public class ImagesUtils {
@@ -28,86 +28,53 @@ public class ImagesUtils {
         void giveMeMyDrawable(Bitmap bitmap);
     }
 
-    public static void getImage(final GreetingCard greetingCard, final SetDrawableCallback callback) throws IOException {
-        if (hasImage(greetingCard)) {
-            Log.d(TAG, "YAY THERE'S AN IMAGE");
-            Bitmap bm = getBitmap(greetingCard);
+    public static void getImage(final GreetingCard greetingCard, final SetDrawableCallback callback, final Context c) throws IOException {
+        String key = greetingCard.getAuthor();
+        getImage(callback, c, key);
+    }
+
+    public static void getImage(final SetDrawableCallback callback, Context c, String key) {
+        File file = new File(c.getFilesDir(), key +".jpg");
+        String imageFile = file.getAbsolutePath();
+        if (hasImage(imageFile)) {
+            Log.d(TAG, "YAY THERE'S AN IMAGE FOR "+key);
+            Bitmap bm = getBitmap(imageFile);
             callback.giveMeMyDrawable(bm);
         }
         else {
-            Log.d(TAG, "No image yet...");
 
             FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageRef = storage.getReference().child(GREETING_CARDS);
-            String absolutePathImage = getAbsolutePathImage(greetingCard);
+            StorageReference storageRef = storage.getReference().child(GREETING_CARDS).child(key + ".jpg");
 
-            Log.d(TAG, "No image yet..." + absolutePathImage);
-            File localFile = new File(absolutePathImage);
+            final File localFile = new File(imageFile);
 
             Log.d(TAG, "No image yet..." + localFile.getAbsolutePath());
             storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                    Bitmap bm = getBitmap(greetingCard);
-                    callback.giveMeMyDrawable(bm);
+                    Bitmap bm = getBitmap(localFile.getAbsolutePath());
+                    if (hasImage(localFile.getAbsolutePath())) {
+                        callback.giveMeMyDrawable(bm);
+                    } else {
+                        Log.e(TAG, "WUUUT? THE IMAGE JUST DISAPPERARED");
+                    }
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
-
+                    Log.e(TAG, "Loading image failed", e);
                 }
             });
         }
     }
 
-    private static void saveToLocal(File localFile, GreetingCard card) {
-        File to = new File(getAbsolutePathImage(card));
-        Log.d(TAG, "Renaming to: " + to.getAbsolutePath());
-        if (!localFile.renameTo(to)) {
-            Log.e(TAG, "Could not rename file");
-        }
-    }
 
-    public static String getAbsolutePathImage(GreetingCard card) {
-        File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
-        File image = new File(storageDir, card.getAuthor() + ".jpg");
-        return image.getAbsolutePath();
-    }
-
-    public static void setImage(GreetingCard card, ImageView imageView, boolean needsToBeTinted, boolean small) {
-        setImage(imageView, needsToBeTinted, card, small);
-    }
-
-    public static void setImage(ImageView imageView, boolean needsToBeTinted, GreetingCard card, boolean small) {
-        String path = getAbsolutePathImage(card);
-        if (hasImage(path)) {
-            Bitmap bm = getBitmap(card);
-            imageView.setImageBitmap(bm);
-            if (needsToBeTinted)
-                imageView.setColorFilter(R.color.our_primary_material_dark, PorterDuff.Mode.OVERLAY);
-
-        } else {
-            imageView.setImageResource(R.mipmap.quimder_logo_4);
-        }
-    }
-
-    private static Bitmap getBitmap(GreetingCard card) {
-        BitmapFactory.Options ops = new BitmapFactory.Options();
-        ops.inSampleSize = 1;
-        return BitmapFactory.decodeFile(getAbsolutePathImage(card), ops);
-    }
-
-    public static boolean hasImage(String path) {
+    private static boolean hasImage(String path) {
         File image = new File(path);
         return image.exists();
     }
 
-    public static boolean hasImage(GreetingCard mItem) {
-        String path = getAbsolutePathImage(mItem);
-        return hasImage(path);
-    }
-
-    public static Bitmap getBitmap(String path) {
+    private static Bitmap getBitmap(String path) {
         InputStream in;
         try {
             final int IMAGE_MAX_SIZE = 120000; // 1.2MP
@@ -161,24 +128,4 @@ public class ImagesUtils {
         }
     }
 
-    public static String saveImageCard(GreetingCard greetingCard, String photoPath) {
-        if (photoPath != null) {
-            File f = new File(photoPath);
-            if (f.exists()) {
-                String name = greetingCard.getAuthor() + ".jpg";
-                return renameFile(name, photoPath);
-            }
-        }
-        return "";
-    }
-
-    public static String renameFile(String name, String path) {
-        File from = new File(path);
-        File directory = from.getParentFile();
-        File to = new File(directory, name);
-        if (!from.renameTo(to)) {
-            Log.e(TAG, "Could not rename file");
-        }
-        return to.getAbsolutePath();
-    }
 }
