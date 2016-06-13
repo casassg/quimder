@@ -1,4 +1,4 @@
-package tindre.love.quim.quimtindre.adapter;
+package tindre.love.quim.quimtindre.utils;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
