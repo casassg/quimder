@@ -21,9 +21,10 @@ import tindre.love.quim.quimtindre.utils.ImagesUtils;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int PERMISSION_REQUEST_WRITE_EXTERNAL = 32;
     private final static String GREETING_CARDS = "greetingCards";
     private FirebaseAdapter<GreetingCard> adapter;
+    private boolean isSplashShown = true;
+    private SwipeFlingAdapterView flingContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,19 +33,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-            init();
+        init();
     }
 
     private void init() {
 
-        SwipeFlingAdapterView flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
+        flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
+        assert flingContainer != null;
+        showSplashScreen();
         DatabaseReference mGreetingCardDatabase = FirebaseDatabase.getInstance().getReference().child(GREETING_CARDS);
         adapter = new FirebaseAdapter<GreetingCard>(mGreetingCardDatabase, GreetingCard.class, R.layout.tinder, this) {
             @Override
-            protected void loadData(String key) {
+            protected void onKeyAdded(String key) {
                 ImagesUtils.getImage(new ImagesUtils.SetDrawableCallback() {
                     @Override
-                    public void giveMeMyDrawable(Bitmap bitmap) {}
+                    public void giveMeMyDrawable(Bitmap bitmap) {
+                    }
                 }, getApplicationContext(), key);
             }
 
@@ -63,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                         public void giveMeMyDrawable(Bitmap bitmap) {
                             imageView.setImageBitmap(bitmap);
                             adapter.notifyDataSetChanged();
+                            if (isSplashShown) {
+                                hideSplashScreen();
+                            }
 
                         }
                     }, getApplicationContext());
@@ -72,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        assert flingContainer != null;
         flingContainer.setAdapter(adapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
@@ -101,6 +107,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+    }
+
+    private void showSplashScreen() {
+        flingContainer.setVisibility(View.INVISIBLE);
+        isSplashShown = true;
+    }
+
+    private void hideSplashScreen() {
+        flingContainer.setVisibility(View.VISIBLE);
+        isSplashShown = false;
     }
 
 }
