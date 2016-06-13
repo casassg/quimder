@@ -1,10 +1,16 @@
 package tindre.love.quim.quimtindre;
 
+import android.app.Activity;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,11 +18,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 
-import tindre.love.quim.quimtindre.adapter.FirebaseAdapter;
+import java.io.IOException;
+
 import tindre.love.quim.quimtindre.model.Felicitacio;
+import tindre.love.quim.quimtindre.utils.FirebaseAdapter;
+import tindre.love.quim.quimtindre.utils.ImatgesUtils;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int PERMISSION_REQUEST_WRITE_EXTERNAL = 32;
     private DatabaseReference mDatabase;
     private FirebaseAdapter<Felicitacio> adapter;
 
@@ -26,7 +36,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        if (checkWritePermission(this)){
+            init();
+        }
 
+
+    }
+
+    private void init() {
         //add the view via xml or programmatically
         SwipeFlingAdapterView flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
@@ -39,7 +56,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void populateView(View v, Felicitacio model) {
                 TextView descripcioView = (TextView) v.findViewById(R.id.descripcio);
+                final ImageView imageView = (ImageView) v.findViewById(R.id.image);
                 descripcioView.setText(model.text);
+                model.path = model.text+".jpg";
+                try {
+                    ImatgesUtils.getImage(model, new ImatgesUtils.SetDrawableCallback() {
+                        @Override
+                        public void giveMeMyDrawable(Bitmap bitmap) {
+                            imageView.setImageBitmap(bitmap);
+                            adapter.notifyDataSetChanged();
+
+                        }
+                    });
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         };
 
@@ -79,6 +110,27 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public static Boolean checkWritePermission(Activity activity) {
+        int permission = ActivityCompat.checkSelfPermission(activity, android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(
+                    activity,
+                    new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    PERMISSION_REQUEST_WRITE_EXTERNAL
+            );
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == PERMISSION_REQUEST_WRITE_EXTERNAL &&
+                grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            init();
+        }
     }
 
 }

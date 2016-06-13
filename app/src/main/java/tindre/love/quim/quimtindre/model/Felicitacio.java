@@ -7,6 +7,8 @@ package tindre.love.quim.quimtindre.model;
  */
 public class Felicitacio {
     public String text;
+    public String path;
+
 
     public Felicitacio(String text){
         this.text = text;
