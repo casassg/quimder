@@ -22,6 +22,7 @@ import tindre.love.quim.quimtindre.model.GreetingCard;
 public class ImagesUtils {
 
     public static final String TAG = ImagesUtils.class.getSimpleName();
+    private final static String GREETING_CARDS = "greetingCards";
 
     public interface SetDrawableCallback {
         void giveMeMyDrawable(Bitmap bitmap);
@@ -37,7 +38,7 @@ public class ImagesUtils {
             Log.d(TAG, "No image yet...");
 
             FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageRef = storage.getReference();
+            StorageReference storageRef = storage.getReference().child(GREETING_CARDS);
             String absolutePathImage = getAbsolutePathImage(greetingCard);
 
             Log.d(TAG, "No image yet..." + absolutePathImage);

@@ -45,9 +45,13 @@ public class MainActivity extends AppCompatActivity {
         adapter = new FirebaseAdapter<GreetingCard>(mGreetingCardDatabase, GreetingCard.class, R.layout.tinder, this) {
             @Override
             protected void populateView(View v, GreetingCard model) {
-                final TextView viewDescription = (TextView) v.findViewById(R.id.user_name);
+                final TextView nameTextView = (TextView) v.findViewById(R.id.user_name);
+                final TextView ageTextView = (TextView) v.findViewById(R.id.user_age);
+                final TextView descriptionTextView = (TextView) v.findViewById(R.id.user_description);
                 final ImageView imageView = (ImageView) v.findViewById(R.id.user_photo);
-                viewDescription.setText(model.getAuthor());
+                nameTextView.setText(model.getAuthor());
+                ageTextView.setText(Integer.toString(model.getAge()));
+                descriptionTextView.setText(model.getDescription());
                 try {
                     ImagesUtils.getImage(model, new ImagesUtils.SetDrawableCallback() {
                         @Override

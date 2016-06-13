@@ -8,6 +8,8 @@ public class GreetingCard {
 
     private String author;
     private String text;
+    private Integer age;
+    private String description;
 
     public GreetingCard() {
 
@@ -32,6 +34,22 @@ public class GreetingCard {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     @Override
