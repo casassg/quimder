@@ -1,5 +1,8 @@
 package tindre.love.quim.quimtindre.activity;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -113,6 +116,10 @@ public class MainActivity extends AppCompatActivity {
     private void showSplashScreen() {
         flingContainer.setVisibility(View.INVISIBLE);
         isSplashShown = true;
+
+        Intent intent = new Intent(MainActivity.this, SplashScreen.class);
+        startActivity(intent);
+
     }
 
     private void hideSplashScreen() {

@@ -5,4 +5,8 @@
     <string name="user_photo_description">User Photo</string>
     <string name="user_age_test">20</string>
     <string name="user_description_test">Founder at Creative Productions</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>
