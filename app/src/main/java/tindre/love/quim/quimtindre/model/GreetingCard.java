@@ -10,6 +10,7 @@ public class GreetingCard {
     private String text;
     private Integer age;
     private String description;
+    private String photoPath;
 
     public GreetingCard() {
 
@@ -50,6 +51,14 @@ public class GreetingCard {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getPhotoPath() {
+        return photoPath;
+    }
+
+    public void setPhotoPath(String photoPath) {
+        this.photoPath = photoPath;
     }
 
     @Override
