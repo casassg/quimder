@@ -60,32 +60,36 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String previousChildName) {
                 T model = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
-                String key = dataSnapshot.getKey();
-                onKeyAdded(key);
-                if (previousChildName == null) {
-                    mModels.add(0, model);
-                    mKeys.add(0, key);
-                } else {
-                    int previousIndex = mKeys.indexOf(previousChildName);
-                    int nextIndex = previousIndex + 1;
-                    if (nextIndex == mModels.size()) {
-                        mModels.add(model);
-                        mKeys.add(key);
+                if (!model.toString().isEmpty()) {
+                    String key = dataSnapshot.getKey();
+                    onKeyAdded(key);
+                    if (previousChildName == null) {
+                        mModels.add(0, model);
+                        mKeys.add(0, key);
                     } else {
-                        mModels.add(nextIndex, model);
-                        mKeys.add(nextIndex, key);
+                        int previousIndex = mKeys.indexOf(previousChildName);
+                        int nextIndex = previousIndex + 1;
+                        if (nextIndex == mModels.size()) {
+                            mModels.add(model);
+                            mKeys.add(key);
+                        } else {
+                            mModels.add(nextIndex, model);
+                            mKeys.add(nextIndex, key);
+                        }
                     }
+                    notifyDataSetChanged();
                 }
-                notifyDataSetChanged();
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 String key = dataSnapshot.getKey();
                 T newModel = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
-                int index = mKeys.indexOf(key);
-                mModels.set(index, newModel);
-                notifyDataSetChanged();
+                if (!newModel.toString().isEmpty()) {
+                    int index = mKeys.indexOf(key);
+                    mModels.set(index, newModel);
+                    notifyDataSetChanged();
+                }
             }
 
             @Override

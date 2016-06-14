@@ -1,5 +1,6 @@
 package tindre.love.quim.quimtindre.activity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +22,7 @@ import tindre.love.quim.quimtindre.utils.ImagesUtils;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final static String GREETING_CARDS = "greetingCards";
+    public final static String GREETING_CARDS = "greetingCards";
     private FirebaseAdapter<GreetingCard> adapter;
     private boolean isSplashShown = true;
     private SwipeFlingAdapterView flingContainer;
@@ -80,6 +81,16 @@ public class MainActivity extends AppCompatActivity {
         };
 
         flingContainer.setAdapter(adapter);
+        flingContainer.setOnItemClickListener(new SwipeFlingAdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClicked(int i, Object o) {
+                GreetingCard card = (GreetingCard) o;
+
+                Intent intent = new Intent(getApplicationContext(), GreetingActivity.class);
+                intent.putExtra(GreetingActivity.USER_ID,card.getAuthor());
+                startActivity(intent);
+            }
+        });
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
             public void removeFirstObjectInAdapter() {
