@@ -47,6 +47,7 @@ public class GreetingActivity extends AppCompatActivity {
             @Override
             public void giveMeMyDrawable(Bitmap bitmap) {
                 ImageView appBarLayout = (ImageView) findViewById(R.id.user_image_detail);
+                assert appBarLayout != null;
                 appBarLayout.setImageBitmap(bitmap);
             }
         },getApplicationContext(),userId);
@@ -68,13 +69,16 @@ public class GreetingActivity extends AppCompatActivity {
         TextView authorView = (TextView) findViewById(R.id.user_name);
         TextView ageView = (TextView) findViewById(R.id.user_age);
         TextView descriptionView = (TextView) findViewById(R.id.user_description);
+        TextView textView = (TextView) findViewById(R.id.user_text);
         assert authorView != null;
         assert ageView != null;
         assert descriptionView != null;
+        assert textView != null;
 
         authorView.setText(card.getAuthor());
         ageView.setText(String.valueOf(card.getAge()));
         descriptionView.setText(card.getDescription());
+        textView.setText(card.getText());
 
 
         //And now do the tricky part

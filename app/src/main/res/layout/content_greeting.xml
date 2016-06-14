@@ -85,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
                 android:textStyle="italic"
+                android:id="@+id/user_text"
                 android:text="@string/greeting_card_test"/>
 
             <Space
