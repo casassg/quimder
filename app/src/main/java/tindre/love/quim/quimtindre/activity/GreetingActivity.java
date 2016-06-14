@@ -2,10 +2,13 @@ package tindre.love.quim.quimtindre.activity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,8 +33,8 @@ public class GreetingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_greeting);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-// TODO: STILL NEED TO FIGURE THIS OUT
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        // TODO: STILL NEED TO FIGURE THIS OUT
+        // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         if (!intent.hasExtra(USER_ID)) {
@@ -65,23 +68,36 @@ public class GreetingActivity extends AppCompatActivity {
         });
     }
 
-    private void setFields(GreetingCard card) {
+    private void setFields(final GreetingCard card) {
         TextView authorView = (TextView) findViewById(R.id.user_name);
         TextView ageView = (TextView) findViewById(R.id.user_age);
         TextView descriptionView = (TextView) findViewById(R.id.user_description);
         TextView textView = (TextView) findViewById(R.id.user_text);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
         assert authorView != null;
         assert ageView != null;
         assert descriptionView != null;
         assert textView != null;
+        assert fab != null;
 
         authorView.setText(card.getAuthor());
         ageView.setText(String.valueOf(card.getAge()));
         descriptionView.setText(card.getDescription());
         textView.setText(card.getText());
 
-
-        //And now do the tricky part
+        if (card.getPhotoPath().isEmpty())
+            fab.setVisibility(View.GONE);
+        else {
+            fab.setVisibility(View.VISIBLE);
+            fab.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(card.getPhotoPath()));
+                    startActivity(browserIntent);
+                }
+            });
+        }
 
     }
 }
