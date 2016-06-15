@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#ffffff"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
     android:layout_gravity="center"
-    android:id="@+id/lin_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/splash"
-        android:background="@drawable/quimder_logo_4" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:id="@+id/lin_lay"
+        android:gravity="center"
+        android:orientation="vertical" >
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/splash"
+            android:background="@drawable/quimder_logo_4" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

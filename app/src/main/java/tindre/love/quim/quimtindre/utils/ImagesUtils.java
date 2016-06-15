@@ -39,33 +39,41 @@ public class ImagesUtils {
         if (hasImage(imageFile)) {
             Log.d(TAG, "YAY THERE'S AN IMAGE FOR "+key);
             Bitmap bm = getBitmap(imageFile);
-            callback.giveMeMyDrawable(bm);
+            if (bm==null) {
+                downloadImage(callback, key, imageFile);
+            }else {
+                callback.giveMeMyDrawable(bm);
+            }
         }
         else {
 
-            FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageRef = storage.getReference().child(GREETING_CARDS).child(key + ".jpg");
-
-            final File localFile = new File(imageFile);
-
-            Log.d(TAG, "No image yet..." + localFile.getAbsolutePath());
-            storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                @Override
-                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                    Bitmap bm = getBitmap(localFile.getAbsolutePath());
-                    if (hasImage(localFile.getAbsolutePath())) {
-                        callback.giveMeMyDrawable(bm);
-                    } else {
-                        Log.e(TAG, "WUUUT? THE IMAGE JUST DISAPPERARED");
-                    }
-                }
-            }).addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception e) {
-                    Log.e(TAG, "Loading image failed", e);
-                }
-            });
+            downloadImage(callback, key, imageFile);
         }
+    }
+
+    private static void downloadImage(final SetDrawableCallback callback, String key, String imageFile) {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        StorageReference storageRef = storage.getReference().child(GREETING_CARDS).child(key + ".jpg");
+
+        final File localFile = new File(imageFile);
+
+        Log.d(TAG, "Downloading" + localFile.getAbsolutePath());
+        storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                if (hasImage(localFile.getAbsolutePath())) {
+                    Bitmap bm = getBitmap(localFile.getAbsolutePath());
+                    callback.giveMeMyDrawable(bm);
+                } else {
+                    Log.e(TAG, "WUUUT? THE IMAGE JUST DISAPPERARED");
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.e(TAG, "Loading image failed", e);
+            }
+        });
     }
 
 
@@ -101,6 +109,9 @@ public class ImagesUtils {
                 o = new BitmapFactory.Options();
                 o.inSampleSize = scale;
                 b = BitmapFactory.decodeStream(in, null, o);
+                if (b==null){
+                    return null;
+                }
 
                 // resize to desired dimensions
                 int height = b.getHeight();

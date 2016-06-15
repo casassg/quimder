@@ -1,17 +1,13 @@
 package tindre.love.quim.quimtindre.activity;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.PixelFormat;
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
-import android.view.Window;
+import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
 
 import tindre.love.quim.quimtindre.R;
 
@@ -21,10 +17,16 @@ public class SplashScreen extends AppCompatActivity {
 
     /** Called when the activity is first created. */
     Thread splashTread;
+    public static boolean shouldWeStopNow = false;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(Color.TRANSPARENT);
+        }
         StartAnimations();
     }
     private void StartAnimations() {
@@ -48,7 +50,11 @@ public class SplashScreen extends AppCompatActivity {
                 try {
                     int waited = 0;
                     // Splash screen pause time (aprox until data is available)
-                    while (waited < 8000) {
+                    while (waited < 3000) {
+                        sleep(100);
+                        waited += 100;
+                    }
+                    while (!shouldWeStopNow & waited < 10000) {
                         sleep(100);
                         waited += 100;
                     }
@@ -63,6 +69,8 @@ public class SplashScreen extends AppCompatActivity {
 
             }
         };
+
+
         splashTread.start();
 
     }

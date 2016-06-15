@@ -1,8 +1,5 @@
 package tindre.love.quim.quimtindre.activity;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -11,10 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
+
 import java.io.IOException;
+
 import tindre.love.quim.quimtindre.R;
 import tindre.love.quim.quimtindre.model.GreetingCard;
 import tindre.love.quim.quimtindre.utils.FirebaseAdapter;
@@ -26,11 +26,15 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAdapter<GreetingCard> adapter;
     private boolean isSplashShown = true;
     private SwipeFlingAdapterView flingContainer;
+    private FirebaseDatabase database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        if (database==null){
+            database = FirebaseDatabase.getInstance();
+        }
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -38,11 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     private void init() {
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
         assert flingContainer != null;
         showSplashScreen();
-        DatabaseReference mGreetingCardDatabase = FirebaseDatabase.getInstance().getReference().child(GREETING_CARDS);
+
+        DatabaseReference mGreetingCardDatabase = database.getReference().child(GREETING_CARDS);
         adapter = new FirebaseAdapter<GreetingCard>(mGreetingCardDatabase, GreetingCard.class, R.layout.tinder, this) {
             @Override
             protected void onKeyAdded(String key) {
@@ -132,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
     private void hideSplashScreen() {
         flingContainer.setVisibility(View.VISIBLE);
         isSplashShown = false;
+        SplashScreen.shouldWeStopNow = true;
     }
 
 }
