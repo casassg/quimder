@@ -12,20 +12,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+
 import tindre.love.quim.quimtindre.R;
 import tindre.love.quim.quimtindre.model.ChatMessage;
 import tindre.love.quim.quimtindre.utils.AnimalUtils;
-import tindre.love.quim.quimtindre.utils.FirebaseAdapter;
 
 public class ChatActivity extends AppCompatActivity {
 
     private final static String CHAT_MESSAGES = "chatMessages";
-    private FirebaseAdapter<ChatMessage> adapter;
     private String animal;
+    private FirebaseRecyclerAdapter<ChatMessage, ChatHolder> mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,34 +39,21 @@ public class ChatActivity extends AppCompatActivity {
         final RecyclerView recycler = (RecyclerView) findViewById(R.id.chat_list);
         assert recycler != null;
         recycler.setHasFixedSize(true);
-        LinearLayoutManager layout = new LinearLayoutManager(this);
-        recycler.setLayoutManager(layout);
+        recycler.setLayoutManager(new LinearLayoutManager(this));
 
         DatabaseReference mChatMessageDatabase = FirebaseDatabase.getInstance().getReference().child(CHAT_MESSAGES);
-        adapter = new FirebaseAdapter<ChatMessage>(mChatMessageDatabase, ChatMessage.class, R.layout.message, this) {
-            @Override
-            protected void onKeyAdded(String key) {
-                if (adapter.getCount() > 0) {
-                    recycler.smoothScrollToPosition(adapter.getCount() - 1);
-                }
-            }
 
+        mAdapter = new FirebaseRecyclerAdapter<ChatMessage, ChatHolder>(ChatMessage.class, R.layout.message, ChatHolder.class, mChatMessageDatabase) {
             @Override
-            protected void populateView(View v, ChatMessage model) {
-                TextView author = (TextView) v.findViewById(R.id.author);
-                TextView content = (TextView) v.findViewById(R.id.content);
-                TextView date = (TextView) v.findViewById(R.id.date);
-                ImageView icon = (ImageView) v.findViewById(R.id.user_icon);
-                author.setText(model.getAuthor());
-                content.setText(model.getContent());
-                DateFormat sdf = SimpleDateFormat.getDateTimeInstance();
-                date.setText(sdf.format(model.getCreatedAt()));
-                icon.setImageDrawable(getDrawable(AnimalUtils.getAnimalImageId(animal)));
+            public void populateViewHolder(ChatHolder chatMessageViewHolder, ChatMessage chatMessage, int position) {
+                chatMessageViewHolder.setAuthor(chatMessage.getAuthor());
+                chatMessageViewHolder.setContent(chatMessage.getContent());
             }
-
         };
-        recycler.setAdapter(adapter);
+        recycler.setAdapter(mAdapter);
+
         setupSendAction(mChatMessageDatabase);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private void setupSendAction(final DatabaseReference mRef) {
@@ -104,6 +91,28 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        adapter.cleanup();
+        mAdapter.cleanup();
+    }
+
+    public static class ChatHolder extends RecyclerView.ViewHolder {
+        View mView;
+
+        public ChatHolder(View itemView) {
+            super(itemView);
+            mView = itemView;
+        }
+
+        public void setAuthor(String author) {
+            TextView field = (TextView)  itemView.findViewById(R.id.author);
+            field.setText("by "+author);
+            ImageView icon = (ImageView) itemView.findViewById(R.id.user_icon);
+            icon.setImageResource(AnimalUtils.getAnimalImageId(author));
+        }
+
+        public void setContent(String content){
+            TextView field = (TextView)  itemView.findViewById(R.id.content);
+            field.setText(content);
+        }
+
     }
 }

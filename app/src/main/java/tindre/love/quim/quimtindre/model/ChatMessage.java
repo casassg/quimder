@@ -1,30 +1,28 @@
 package tindre.love.quim.quimtindre.model;
 
-import java.util.Date;
-
 public class ChatMessage {
 
     private String id;
     private String author;
     private String content;
-    private Long createdAt;
+//    private Long createdAt;
 
     public ChatMessage() {
         author="";
         content="";
-        createdAt = new Date().getTime();
+//        createdAt = new Date().getTime();
     }
 
     public ChatMessage(String author, String content) {
         this.author = author;
         this.content = content;
-        this.createdAt = new Date().getTime();
+//        this.createdAt = new Date().getTime();
     }
 
     public ChatMessage(String author, String content, Long createdAt) {
         this.author = author;
         this.content = content;
-        this.createdAt = createdAt;
+//        this.createdAt = createdAt;
     }
 
     public String getAuthor() {
@@ -43,25 +41,17 @@ public class ChatMessage {
         this.content = content;
     }
 
-    public Long getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(long createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Date createdAt(){
-        return new Date(createdAt);
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+//    public Long getCreatedAt() {
+//        return createdAt;
+//    }
+//
+//    public void setCreatedAt(long createdAt) {
+//        this.createdAt = createdAt;
+//    }
+//
+//    public Date createdAt(){
+//        return new Date(createdAt);
+//    }
 
     @Override
     public String toString() {

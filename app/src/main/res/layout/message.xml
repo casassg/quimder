@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_marginBottom="2dp"
-    android:layout_height="wrap_content" android:padding="10dp">
+    android:layout_height="wrap_content">
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:id="@+id/user_icon"
         android:src="@mipmap/user"
         android:contentDescription="@string/user_description_test" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
         android:background="#ffffff"
-        android:orientation="vertical"
-        android:padding="10dp">
-
-        <TextView
-            android:id="@+id/author"
-            android:layout_width="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/user_name_test"
-            android:textSize="14sp"
-            android:layout_marginTop="4dp"
-            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/content"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/user_description_test"
-            android:textSize="16sp"
-            android:layout_marginTop="4dp"
-            android:textIsSelectable="true" />
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_description_test"
+                android:textSize="16sp"
+                android:textIsSelectable="true"
+                android:layout_margin="5dp" />
 
-        <TextView
-            android:id="@+id/date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/date_test"
-            android:textSize="8sp"
-            android:layout_marginTop="4dp" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name_test"
+                android:layout_below="@+id/content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
 
 
 </LinearLayout>
