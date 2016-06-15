@@ -1,5 +1,7 @@
 package tindre.love.quim.quimtindre.utils;
 
+import tindre.love.quim.quimtindre.R;
+
 public class AnimalUtils {
 
     public final static String[] animalList = new String[]{ "Koala", "Dog", "Cat", "Cow", "Duck",
@@ -11,6 +13,6 @@ public class AnimalUtils {
     }
 
     public static int getAnimalImageId(String animal) {
-        return 0;
+        return R.mipmap.user;
     }
 }
