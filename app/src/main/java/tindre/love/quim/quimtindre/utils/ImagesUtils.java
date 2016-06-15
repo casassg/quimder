@@ -37,7 +37,6 @@ public class ImagesUtils {
         File file = new File(c.getFilesDir(), key +".jpg");
         String imageFile = file.getAbsolutePath();
         if (hasImage(imageFile)) {
-            Log.d(TAG, "YAY THERE'S AN IMAGE FOR "+key);
             Bitmap bm = getBitmap(imageFile);
             if (bm==null) {
                 downloadImage(callback, key, imageFile);
@@ -57,7 +56,7 @@ public class ImagesUtils {
 
         final File localFile = new File(imageFile);
 
-        Log.d(TAG, "Downloading" + localFile.getAbsolutePath());
+        Log.i(TAG, "Downloading to " + localFile.getAbsolutePath());
         storageRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {

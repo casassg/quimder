@@ -1,7 +1,5 @@
 package tindre.love.quim.quimtindre.activity;
 
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
@@ -24,9 +22,6 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(Color.TRANSPARENT);
-        }
         StartAnimations();
     }
     private void StartAnimations() {
