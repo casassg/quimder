@@ -14,8 +14,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import tindre.love.quim.quimtindre.R;
 import tindre.love.quim.quimtindre.model.ChatMessage;
@@ -26,6 +29,7 @@ public class ChatActivity extends AppCompatActivity {
     private final static String CHAT_MESSAGES = "chatMessages";
     private String animal;
     private FirebaseRecyclerAdapter<ChatMessage, ChatHolder> mAdapter;
+    private View chatLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +39,8 @@ public class ChatActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         animal = AnimalUtils.getRandomAnimal();
-
+        chatLayout = findViewById(R.id.chat_layout);
+        assert chatLayout != null;
         final RecyclerView recycler = (RecyclerView) findViewById(R.id.chat_list);
         assert recycler != null;
         recycler.setHasFixedSize(true);
@@ -50,6 +55,20 @@ public class ChatActivity extends AppCompatActivity {
                 chatMessageViewHolder.setContent(chatMessage.getContent());
             }
         };
+
+        mChatMessageDatabase.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (mAdapter.getItemCount() > 0) {
+                    recycler.smoothScrollToPosition(mAdapter.getItemCount() - 1);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError firebaseError) {
+
+            }
+        });
         recycler.setAdapter(mAdapter);
 
         setupSendAction(mChatMessageDatabase);
@@ -65,8 +84,8 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String messageContent = messageText.getText().toString();
-                if (messageContent.isEmpty()) {
-                    Snackbar.make(v.findViewById(R.id.chat_layout), "Los mensajes vacios no són permitidos", Snackbar.LENGTH_SHORT)
+                if (messageContent.trim().isEmpty()) {
+                    Snackbar.make(chatLayout, "Los mensajes vacios no són permitidos", Snackbar.LENGTH_SHORT)
                             .show();
                     return;
                 }
@@ -103,14 +122,14 @@ public class ChatActivity extends AppCompatActivity {
         }
 
         public void setAuthor(String author) {
-            TextView field = (TextView)  itemView.findViewById(R.id.author);
-            field.setText("by "+author);
+            TextView field = (TextView) itemView.findViewById(R.id.author);
+            field.setText("by " + author);
             ImageView icon = (ImageView) itemView.findViewById(R.id.user_icon);
             icon.setImageResource(AnimalUtils.getAnimalImageId(author));
         }
 
-        public void setContent(String content){
-            TextView field = (TextView)  itemView.findViewById(R.id.content);
+        public void setContent(String content) {
+            TextView field = (TextView) itemView.findViewById(R.id.content);
             field.setText(content);
         }
 

@@ -1,6 +1,7 @@
 package tindre.love.quim.quimtindre.utils;
 
 import java.util.HashMap;
+import java.util.Random;
 
 import tindre.love.quim.quimtindre.R;
 
@@ -21,11 +22,12 @@ public class AnimalUtils {
         animals.put("Panda", R.mipmap.user);
         animals.put("Turtle", R.mipmap.user);
         animals.put("Fish", R.mipmap.user);
-        animals.put("Dinosaus", R.mipmap.user);
+        animals.put("Dinosaur", R.mipmap.user);
     }
 
     public static String getRandomAnimal() {
-        return animals.keySet().toArray(new String[animals.size()])[(int) (Math.random() % (animals.size() - 1))];
+        Random r = new Random();
+        return animals.keySet().toArray(new String[animals.size()])[r.nextInt(animals.size())];
     }
 
     public static int getAnimalImageId(String animal) {

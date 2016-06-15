@@ -8,6 +8,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -33,8 +34,6 @@ public class GreetingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_greeting);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // TODO: STILL NEED TO FIGURE THIS OUT
-        // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         if (!intent.hasExtra(USER_ID)) {
@@ -66,6 +65,9 @@ public class GreetingActivity extends AppCompatActivity {
                 Log.e(TAG, "OH NO THE DATABASE CRASHED!", databaseError.toException());
             }
         });
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     private void setFields(final GreetingCard card) {
@@ -98,6 +100,17 @@ public class GreetingActivity extends AppCompatActivity {
                 }
             });
         }
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
 
     }
 }
