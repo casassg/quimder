@@ -1,0 +1,235 @@
+{
+  "greetingCards" : {
+    "Adria Reales" : {
+      "age" : 21,
+      "author" : "Adria Reales",
+      "description" : "Estudiante de la Universidad Autónoma de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Agustin Rugiero" : {
+      "age" : 20,
+      "author" : "Agustin Rugiero",
+      "description" : "Estudiante de Comunicación Audiovisual en Pompeu Fabra",
+      "photoPath" : "",
+      "text" : "quim\nQuim\nq u i m\nQUIM\nQ U I M\nQ U I I I I I I I I I I I M\nQ U U U I I I I I I I M M M M M\nIf you swipe right now, you might be getting into the Danger Zone! Bueno, més que res, dir.-te que sóc un jove apassionat, cinèfil i amant de la festa que busca un company (de vida, de pis, d’experimentació homosexual…) que vulgui compartir una part (o tota if ya put a ring on it) de la seva life amb mi, i que si vols conviure en un ambient ple de somriures i postures sexuals estranyes i individus desconeguts venent drogues de disseny a les 2:13 de la matinada (o cada vegada que el rellotge marqui Tea Time) però c o m p l e t a m e n t lliure de spoilers, doncs que sàpigues que jo sempre seré obert (de cames) a qualsevol opció que t’hi inclogui.\nPer molts anys, mon pimpollet d’al·lelí, la Lana del meu Archer, el Rick del meu Morty, el Morty del meu Rich.\nt’estim\nAgus"
+    },
+    "Alba Fletcher" : {
+      "age" : 21,
+      "author" : "Alba Fletcher",
+      "description" : "Estudiante en la Universidad de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Albert Abril" : {
+      "age" : 20,
+      "author" : "Albert Abril",
+      "description" : "Estudiante de la Universidad Autónoma de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Albert Ripol" : {
+      "age" : 20,
+      "author" : "Albert Ripol",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : "I, junt amb uns amics, vaig decidir de sortir al passadis a fer el descans d'entre classe i clase. Al darrere vas venir tu i vaig saber que érets dels meus. Així, a la meva manada de 3 fibers t'hi vas afegir tu. Llavors ja vam ser 4 fibers. Primer érem 3 i després t'hi vas unir tu i llavors la meva manda va tenir 4 fibers!\n\nDeixant discursos de grans pelis apart, m'agradaria dir-te que m'ha encantat conèixer-te, ets el tipus de persona amb qui dóna gust dedicar-hi el teu temps, sigui parlant o anant de birres o muntant una paellada (jeje). Però, sobretot, disfruta al màxim dels 21 anys perque... winter is coming!\nMoltíssimes Felicitats, Quim!!!"
+    },
+    "Albert Suarez" : {
+      "age" : 21,
+      "author" : "Albert Suarez",
+      "description" : "Profesor en Academia ASES",
+      "photoPath" : "https://lh3.googleusercontent.com/OQp9h0QfBGZmv8pOZh441R_H3tngKCyG54ZJduw05F8glmiFb6khPxgU3-Cw9ta4O8W28aNDFgLKzzJ9oXQel5e39zc5E-qqLuVikvrgLdFUP_JtCadlQfHoxIiNgsswt0Ek5fG_Og163fl6x9ltNjimUxdzvzyQMEN5rfFalYquRWvAtlAZ2dCnCNdWXhGTeMZ3oKm5AQblolk-67Wkqm7yrMBbsgvbTpe1fWvm7pTXr5P3TFF2k06wDGEeS3t4bxo7TDRp2o6cZnsVIWY3Ji2FMYUV6HwaMNMEphJUm0OxIwlLenuaK7NTKs8yu-sw2RGCpKLKDS6RAblQeDUpjDXJaoAftJhNsuzIl-sbWYf-CngpTsrGZLgg-OXg1s6Z9_ZXzCNKQ8ATj09cEaAUF00NHITdRVKICsbIbXT0md4mQeM0goHqNJWZ0LC2aK0eOiHnOhWgAYTUhnqe_1d9lD40lx_JtPAzp2TieAG6Z3AsAZetUXox1DJIHJBOGw3akOYS9X-8rV206zRDB_gkDxzzy07RACwQuf8o9LCP2B_iwKf6Tc-I6TSSck4WOa73rZvw0zc_FDv7SD0B7-7gPJYekLSvQPQ=w1056-h641-no",
+      "text" : "Recordo aquells dies de fa una mica més d'un any que eres una simple cara coneguda que passejava per la facultat.\nAra, després de tot aquest temps, t'has acabat convertint en més que un company de treballs i universitat.\nEts aquest tipus escàs de persona que miro i veig un reflex total de la meva persona: ets organitzat, t'agrada la cervesa i el bon menjar, ets de poble però a la vegada t'agrada la ciutat, t'agrada conduir i així amb un llarg etcètera.\nAmb aquests 21 anys, només vull desitjar-te el somni de tota persona d'aquest món: pocs fills i molts intents.\nMoltes felicitats guapo!"
+    },
+    "Alex Catala" : {
+      "age" : 20,
+      "author" : "Alex Catala",
+      "description" : "Becario en inLab",
+      "photoPath" : "",
+      "text" : "Quim! Ja són tres els anys que han passat des de que ens vam conèixer. Han estat uns anys molt divertits degustant les teves paelles i altres delícies culinàries, converses políticament (o no) correctes, esquiades, viatges, assignatures, festes i borratxeres.\nAmb molt de gust en passaré uns quants més!\nFELICITATS!!!"
+    },
+    "Anna Arbiol" : {
+      "age" : 20,
+      "author" : "Anna Arbiol",
+      "description" : "Estudiante de audiovisuales",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Carla Ochoa" : {
+      "age" : 21,
+      "author" : "Carla Ochoa",
+      "description" : "Estudiante de la Universidad de Girona",
+      "photoPath" : "https://lh3.googleusercontent.com/29ufklC5Wc8-KcJ1_zliuuIaykGzeQd4ZG4t76tu6utn_RMQ3njlKVijchFUQcjp9S1CUfKvtQhzcVpgJhrmPuFQT8qsSV0As1Ji4jV0DG3Or1YtRn6EUcs9zkhV5I_jkMaiD2MumGzOcg3pSdv678R7hJtHjZlELfQCmDtg2utXx_lIiFEfHK68ItAEeSiYTQev85iwslunE6TshaazjzRLEasA9mb0vMEz4CRwZTqWwJOroqEXBzs9aRF2ABpVXciPS8BUdRWoqYErREMXDQsO3FyBM93IHxxPIHtvRluDlNsiLMR1JNFKZhErEuiN5tNv_gSdvFIgdwlL8Nqwy2Q2l9Fzjc3FO5EC4u10W4S7f8yVeauaShAh5jxiEK3DVQ9eEP7I8M5Hs6bINq3vBN4E1UAMHQcUUWGGM43NA3zh-ktvd4WE9V17cmETOq5pix0pfPuYtvgYL7AQnxMA7oZ7IbWZb2Iws6RcrrqtjupGWMP6DoV4LFHr-wbtcDKTAZDzL--LEfluqF0Qoa_V4-QIj2SVhDFkl7gDaUAt6an9BLSMaMJzGOzpn1yabL9VwtLG3H7wrf0jux3EOISBmtCSuLSdeO0=w794-h595-no",
+      "text" : "Enhorabona ja ets del cau, es necessitaven els teus 21 anys per acabar de validar la ceremònia! Es requeria d'un senpai del qual les mosses puguessin admirar i tenir somnis eròtics! (i algun mosso també).\nL'Ovella negra és testimoni de la teva gran obra per aportar de la teva sabiesa i sobretot, per espavilar als nanus dels temes sexuals i pervertir-los un poc.\nJa era hora, home! \"A disfrutar de la \"locura\" de nit i a gaudir dels 21 anyets. Un petò quimo-senpai!\""
+    },
+    "Carles Angel" : {
+      "age" : 20,
+      "author" : "Carles Angel",
+      "description" : "Estudiante de Blanquerna, Ramón Llull",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Cristina Lou" : {
+      "age" : 21,
+      "author" : "Cristina Lou",
+      "description" : "Estudiante de doble titulación en Derecho y Business Management and Administration en Universidad Pompeu Fabra",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "David Aleu" : {
+      "age" : 20,
+      "author" : "David Aleu",
+      "description" : "Becario en ClearPeaks",
+      "photoPath" : "",
+      "text" : "Ja fa casi tres anys que ens coneixem, tot hi que al principi érem desconeguts, durant aquest temps en hem pogut conèixer com cal.  Ara ets l’amic polític, desaparegut a les festes i, sobretot un amic amb qui pots confiar i tindre converses com cal!\nEspero que gaudeixis de la teva majoria d’edat americana com toca! Moltes felicitats xato!"
+    },
+    "David Moran" : {
+      "age" : 20,
+      "author" : "David Moran",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Elena Ruiz" : {
+      "age" : 21,
+      "author" : "Elena Ruiz",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : "En proceso..."
+    },
+    "Gabriel Pujol" : {
+      "age" : 21,
+      "author" : "Gabriel Pujol",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Gerard Casas" : {
+      "age" : 21,
+      "author" : "Gerard Casas",
+      "description" : "Becario en inLab",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Irene Sole" : {
+      "age" : 21,
+      "author" : "Irene Sole",
+      "description" : "Estudiante de la Universidad Autónoma de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Joana Marti" : {
+      "age" : 20,
+      "author" : "Joana Marti",
+      "description" : "Estudiante de la Universidad Autónoma de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Jordi Corominas" : {
+      "age" : 21,
+      "author" : "Jordi Corominas",
+      "description" : "Estudiante de Publicidad y Relaciones Publicas en Universidad de Girona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Julia Bendle" : {
+      "age" : 19,
+      "author" : "Julia Bendle",
+      "description" : "Estudiante de Ciencias Culinarias y Gastronomicas",
+      "photoPath" : "https://lh3.googleusercontent.com/7tvKlp6MDTkFR6iBMUTNNwZtwrlj3Jnklun2OlPwOfG-bFG6qXx4l1yHhrtC27UhMX6g3YQrc_k4YzoCAN5tdes5E8JDdMUs0jMM8-ZY0SYiMJpH3lp0EC7NM6oGNym9J2yn0hooXZE0m4cLgXVVCrDhTLkZE6tdvt0qQ4fOhvaLgY3si0DCrwvseFExrzU__l9kQSgfLlGseF0r5QWJh8g-HDeu0ftwsa_EM95apDbbX23dPxTW8ZfyzKe6z3nsYk4vHGc2bbIdoKay-itdeYpbkPogfBiTpiCfHwVdFOERKFPdgTAIVbP4Srgz-3qiWHPtbWvK3GGYSf2xhoKW-XlnCV6Cw0kawH8yHV92JjKVH5-NMWKn9IaAekDgEeIYWqVynmlKXqSCxFbIRW9S2iiLW_e9Ar90-bhq3hTItgOlaM98E21ZbTagu9HqNWa6fDITwtr1jUDLL1Uaq5ZCQJmBbLA_eRoFRSHBzp6aHmC9ZKEF-5sZss1LEnSDSx8TV3vusxJQs3mlQZv6ZHbRENIrmxRGafuQ1bcvSHMGY3WMaa4uXXBXr5OcUOHk7NX7QRKKC8DaNUFwZfMZSlfyCv6ESPThEDo=w1080-h607-no",
+      "text" : ""
+    },
+    "Julia Sanchez" : {
+      "age" : 21,
+      "author" : "Julia Sanchez",
+      "description" : "Estudiante de la Universidad Autónoma de Barcelona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Maria Gil" : {
+      "age" : 21,
+      "author" : "Maria Gil",
+      "description" : "Becaria en inLab",
+      "photoPath" : "https://lh3.googleusercontent.com/akfM0v25v27LShSDeS7wwuUEFSXQANS8NjTn2CnywiRd33leE0U7RV_oJIUmCHcWZYuT5C8szDS-QrQueo9sC_Ny3RazMf453-AMebXNYgFKJr5A2JIXt5S-D52dxemO_CuT54Am5h5Ybkhiv0ZJt_gz_BArSc3pk45-OOWcMFb0hBc5G2gKQ7-b7hckoHM_eCo9VsoqBSlNurzX2OXoNt4tDAZuPPiRXykn2TU5NUKQXy9CqVqR3QxXOPzbr5QGyi37OlVkDC3FUowsC4BITWpmPHRPOP3un7sNZgLTEhLmpglwB6uJcNlXRK5QQjXJZYGXWQ58Jo_oFA_vBFIO3Gu11yxFjPuZDZDl8gxJjCXriykpH0EJ6OosqLn-RAVFyDoGRpWbUaBWUSTl-ssEQspVRveoFAoGgkTq6qZ6Zq3rZns0infNPQSFrcUwnJySzYAmRvGhx1x7z9lIdjwmDgwD1rBtZt59BCbviF278sVRUpPNr-bn8pRAtrpxtJ4InO5ZecJkBCm-uj3Js8UoKwxajVGkJISuE3PIfjz-R-12raVgkRmr2p1gpXoLldU3TFK_LJ64nzAPyzxXIYD-fQOKgy9yUAA=w630-h476-no",
+      "text" : "El primer que vaig tastar de tu, van ser unes Encarnitas i el teu somriure amb una VollDamm a la mà, en un dinar compartit per Avedgers d'una Festa de Dia de Telecos.\nGairebé un any després vaig poder tastar el teu rissotto acompanyat de la millor conversa, riure i companyia.\nEl darrer plat que m'has servit ha estat una paella, en el més estimat grup i ambient.\nPerò per sobre dels teus dots culinaris, aprecio la teva simplicitat digna d'anunci d'Estrella Damm, els teus consells i sobretot la teva amistat. Dono gràcies per poder celebrar el teu aniversari al teu costat, envoltada dels teus més estimats, i estimades...perquè: \"Para qué hacer infeliz a una, ¿pudiendo hacer felices a tantas?\"."
+    },
+    "Marta LG" : {
+      "age" : 21,
+      "author" : "Marta LG",
+      "description" : "Estudiante de Empresa Internacional en Universidad de Barcelona",
+      "photoPath" : "https://lh3.googleusercontent.com/Clq1anfHGUpWBdiPOaMv7vDAjOpJFjFRDRPy6vUYR3QKEdWNzAiBtLoK7vUxx05QCRRZJtQ_3AlJbc22He7xVPdYkN84_suxzPlOncSQL8EY_P8cf3rYuG-t7d7MwpiEzOb-D2IZdDjjTNnEzi7wAza1BAvsWF-FB3Gd2F3BbS7O0_vgYSSvixotH6v5HYjassD_BCSWlMYsiFuOYYJ_UC8nMCUE-bs_byTJmt24R1N1AI1LCpUy294FfVIoXAa2rkJsCvfGLFoL81dofVy7-MbW08ifwflM-A1xA9diKe3ZAzGkeNlOlfk50FfX_pPjPHj0pZDxWtTtWbhyR-2E9yvORQTt7YT2YzgfNgmewVZS0rH-RHQAtGtTgF_RXUXg32hskMYIbJAflOyFm4ggw7-M_vZItull11f46VNPu0yEN0w9OQRB7cwEp4XYepBa4cXaA-bwTZzqt9LjeEqxA8s1YuRNjlvNxJq4onqS6AyHLKjWRd8f15SAXBD3VIQGdjxLmPtIBzp04oufak1H-PhpwQ2sestX2oeHdKf9zNYYZY0wyBArclRH839fxkE3X4ll0zT5ujn-gTUV8RQ6OM6NAXMdGUQ=w717-h539-no",
+      "text" : "Moltes felicitats Quim! Desitjo que sigui un bon any ple d'exits. De moment farem que s'inaguri de la millor manera possible aquesta nit!!"
+    },
+    "Octavi Pascual" : {
+      "age" : 21,
+      "author" : "Octavi Pascual",
+      "description" : "Becario en HP",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Oscar Mañas" : {
+      "age" : 21,
+      "author" : "Oscar Mañas",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Patricia Sampedro" : {
+      "age" : 20,
+      "author" : "Patricia Sampedro",
+      "description" : "Estudiante de Ingeniería Informática",
+      "photoPath" : "",
+      "text" : "Sembla mentida, que ja hagin passat quasi tres anys des d'aquell primer dia d'universitat, que per coses de la vida vam coincidir a la mateixa classe!\nEncara recordo, el primer dia que vam quedar els \"Fibers del passadís\" amb les històries de l'Aleu (que mai poden faltar\uD83D\uDE09), la primera telecofarra... I recordes el vici que vaig tenir (per culpa d'algú ehem ehem ) amb Homeland?\nDoncs això, que tot i que en l'últim any no haguem parlat amb excés (això de fer caixetes no és bó\uD83D\uDE0B) vull que continuem tenim debats de política i de sèries!\nAixí que espero que aquests 21 anys et facin més sabi i t'adonis de què Breaking Bad no és una bona serie!\nMoltes felicitats!!"
+    },
+    "Pere Berge" : {
+      "age" : 22,
+      "author" : "Pere Berge",
+      "description" : "Profesor en Academia ASES",
+      "photoPath" : "https://lh3.googleusercontent.com/Yc1jSpgPSH0cuQWGsr-bSozcf1HSuSCcydE_5R6SnhKl1bn8YakgeCwSjP7dvvfsIrQGaiu7g_pjHQoNy4QgfCjpGSgqc46E9nuHb384X9pjhdYfbppJkJPswjLtsEbw-f28-Y4qDIzvpjGh36BdYzCgeOqp7p_PK1qvZfTTNr1Qim1OPxhJ9x1HGPyBCuzshKoMJiw1rOuUDrPPhCSxOz1cE10fmXtGb865UUuwbebCCfdN6LqW56JY40e7qFHMh7EY11czGYbW65ahVe8o3GbPpoKh2QDt5ocOz05ARMmKIr3hMBeepKButIoAzns-8Iuzcz67MCd_A_WmUgUyvHHgEaLwScmPtoqnSkupPy_sJoGjMnMKXbSvCnE64Ud3-3ADDCzgGz3quiym8sxomSRzarYFeWaApg7uNThl2f6FfrUGda9gWUdXzlbhw8rst977Augow2XI7dCWr3mX1aH1OXxw8U1sbhCmRnd3eRB1kWDaP99XsxocnBc6xq2v5kRgNr9WKzi5_OzPsIMcgLRvGk2jR0K0IZt3I3nP4291ljaRA6IX_JQ73Pv0ViaYxxXeoH1SRXptQyeURm_w7fFO85hkBdI=w454-h641-no",
+      "text" : "Sonet de la Encarnación\n\nCom a cuiner en una festa\net vaig conèixer l’any passat.\nHome de mirada honesta,\nsempre a una birra abraçat.\n\nJo ja fa dies que analitzo\nel parlament de cap a peus,\ni allí si que no hi trobo\ndots organitzatius com els teus.\n\nUsuari de Tinder exemplar,\nper molt que plogui ell demana\nbacon-formatge per esmorzar.\n\nNomés em queda dir-te: per molts anys!\ni que no has de patir ja que cada dia\nestàs més guapo que el dia abans."
+    },
+    "Pol Albanell" : {
+      "age" : 21,
+      "author" : "Pol Albanell",
+      "description" : "Estudiante de Historia",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Raquel Rodriguez" : {
+      "age" : 20,
+      "author" : "Raquel Rodriguez",
+      "description" : "Estudiante de Educación Infantil",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Ula Montane" : {
+      "age" : 21,
+      "author" : "Ula Montane",
+      "description" : "Estudiante de la Universidad de Girona",
+      "photoPath" : "",
+      "text" : ""
+    },
+    "Victor Perez" : {
+      "age" : 20,
+      "author" : "Victor Perez",
+      "description" : "Becario en UPCNet",
+      "photoPath" : "https://lh3.googleusercontent.com/UF7TEUgpKXDYV9s7qDFgP_KBqS0_98cjQD5rskzJXFmwOH1Yj9-kcAWyk_Oc1H-xQIl4oBuYux1MXAoe3qT2oOaGRxv8tarYTWlbH83UGCzdDFvo0ixG6HDt9tWpex9zHvORrLVzbnhRJVb2VKuosYUeew_4rvFtlVL_ZOMOH3R9-S9mgMI5ooklYUy9mPu1_QXMvyeruleMWKd3ZPe4Qzy9bFw_15_lr61PhJmahwas_gIeEPQOevGLcqXoQyNi7lqUxVcytvXG52xXIZEKzh9vnz-_5yRzdno_13kGlYtmEe9xe9rEz8IqB5opg7mok8nLBWrcaCPNyx4hdXYqrcTiNjLzUph1JcuZu9KjGCZrrLG_IHJF8Uq4HJS_OWKHVmcrmYnGYTUehaIs99wlhRdwapf77hMJ6JcGlre3LNQX7dZ2H8NxSJwaiU1icBc1NeIlZj6BQuVd6wn6BLZNfr6h_Q_J9WgOhBUjcb8cupeJIYwgcaIrAcIgfyoxT9irQj6tc48mOR2WQiayEEZA30-8mR4ZIkf2RJLqy2n16EUPNT7TxXfG298XdwGFD3r9xwOhi01q3u1_jjsDja5d0p5QhsN-Ky0=w1140-h641-no",
+      "text" : "Encarna, Quimoh, el chico de la barba y las gafas de pasta, el hombre de la Damn, el que desaparece de fiesta, el maestro del arroz, el friki de Game of thrones y El señor de los anillos, el teatrero...\n3 anys fa d'aquell dia en què vaig decidir aventurar-me (i quina aventura!) a les terres de la FIB. M'havien avisat dels perills d'aquesta decisió però em vaig envalentonar i vaig decidir endinçarme en l'aventura.\nDesprés de tantes batalles i lluitar per la supervivència en terres Fibers, m'han quedat uns records que duraran sempre. Com demostrar que un graf és connex? no! Sempre m'enrecordaré dels dinars al bar, de la famosa paellada de FestaFib, de les escapades de classe per anar a fer una birra o de què amb l'excusa que anaves a fer una dutxa vas marxar a casa a dormir durant HackUPC.\nT'has convertit en una persona molt important per a mi, un company en el que confiar i un escudero en les batalles per aconseguir cadires al bar. Sé que és molt típic dir això i ara mateix m'estic odiant per recorrer a aquesta frase tan tòpica però, no canviis mai!\nVale, m'acabo d'adonar que estic escribint massa. Merda, fent aquesta reflexió he acabant escrivint més.\nBueno, anyway, per acabar, et donaré un consell de vida que vaig aprendre un dilluns a la tarda: Sometimes, to be a hero, you just need to hold the door.\nJappy berzdei Lisa, ay vull dir QUIM!"
+    },
+    "Wai Ling Tam" : {
+      "age" : 22,
+      "author" : "Wai Ling Tam",
+      "description" : "Estudiante en Ingeniería Informática",
+      "photoPath" : "https://lh3.googleusercontent.com/mhG3QBiIk3NjCVJY5Sh0yxAqeymSRcUyUspjylWG13GmtHMJ3EXkp_vyPyw-QMtncUTfXWiqGQACkuvteAldK5APXgNhxnzxUP4x5gG0KgNF3FcDaPa-KjjNCncg7gkHVeGHvzSUT6W6DxIEMjk51z0RuUbg56SuXm_0-LlHM5yB0fBsjTITU5LygOiTfAaX8ceRYY4ZxWxE8acPZSCs9T52F8wx7swNUzUI_HtprQefg3y7JGGrzKxwPwZbWxndL0QVCG_NelnhSyaI8vhN8MFJyaPS0-YmcG9ovJLqoAMUPxq0x2MmESarqEvsXl_wWIVOhmXds1euZ4Lz-FogJcfMavcunpJ-ZS-O64WaCOqHAfn-GcMRamY7wupnfcXlt-0f9wv3q46kI4kEsf20XObIPkKkyhmGok5sZPIBtNQUvsH4rsaMlZxm2N8oSx0WqWwW53DZ4azx68l4uGXjDz46TlcdBn3Dc_XrMZa85Jps8sDecEj4zCLvgGxfRikjA4kim0L9IB45NfHfGP40R-P3xSIsnwiR0JL8hG0ysrY6-F3Y4AID9_wSkpH2Nnab0-rt4RiGW3E5Uq5mcETFkKjhYpMnRyw=w962-h641-no",
+      "text" : "Em vaig deixar enganyar amb un \"Vine, som bona gent!\" d’en Gerard en un dia (possiblement) assolellat de febrer. Sempre és culpa d’en Gerard! Però s’ha de reconèixer que aquesta vegada ha sigut una bona. I aquí estic, at the one and only DeQUIMeró!\nQui diria que al meu últim quadri de la carrera encara tindria la oportunitat de conèixer a un grup de bons minyons com vosaltres? hahaha\nJa sé que el meu missatge va una mica dirigit a tots… but why not?! I per últim, jo crec que has sigut el millor scrum master a PES, però shhht, que quedi entre tu i jo eh\uD83D\uDE09\nEt desitjo un happy happy 21 Quimet!"
+    },
+    "Yoel Cabo" : {
+      "age" : 20,
+      "author" : "Yoel Cabo",
+      "description" : "Becario en inLab",
+      "photoPath" : "",
+      "text" : "A un gentilhòmen que un bon dia vaig conéixer a la FIB.\n\nAmic Quim, com ja saps ets un gran Delegat i per això sempre tindràs el meu vot. Però crec que se't queda petit, ara toca saltar a l'escena nacional.\nPenso que les experiències que hem viscut aquests anys ens habiliten per a formar un nou partit.\nEs per això que he decidit obsequiar-te amb part del mailing electoral de la nostra futura candidatura, enumerant 7 raons per les que votar el PQuim i aprofitant per recordar, així, algunes de les nostres vivències més destacades.\n\n1. Capacitat per liderar el poble i articular la maquinària del partit en qualsevol situació:\nCom el dia en que geniusment (i molt borratxos) vam decidir que faríem el sopar de gala.\n\n2. Màxima Transparència:\nLa vam demostrar amb el mític JoMaiMai mano a mano en Pere, tu i jo (i els demès, ohh Judith..), amb una taja descomunal.\n\n3. Experiència en la lluita contra el terrorisme:\nMúltiples batalles lliurades contra el grup conformista radical 'averestudiao' ens avalen. A destacar especialment el moment AC.\n\n4. Capacitat de debatir:\nPortem anys debatint a la seu del partit, a la que anomenem carinyosament \"Bar de la FIB\".\n\n5. Fortalesa financera:\nVERSE\n\n6. Compromís per la igualtat entre homes i dones:\nAmb anys de lluita per la paritat a la FIB a les nostres espatlles.\n\n7. Nova Política:\nMai més l'eix esquerra-dreta definirà el mapa polític d'aquest país. Amb la nostra arribada, situarem un nou eix, ebri-sobri.\n\nTambé un parell de projectes a llarg termini:\n- Duur en Bertín Osborne a la propera festaFIB, així demostrem que sabem cuinar (no com la resta de líders polítics) i li ensenyem al país a què ens referim amb el nou eix ebri-sobri.\n- Muntar un bar a la muntanya (per blanquejar) i traslladar-hi la seu del partit.\n- Contractar en Gerard d'assesor en I+D+i\n\n---\n\nDoncs res Quim, que estava recordant els bons moments i m'he adonat que la meitat són de borratxos i l'altra meitat al bar. Amb tot que se m'ha anat la castanya i he acabat escrivint això enlloc de una dedicatòria. Però bé, has de saber que ha sigut un plaer y un gose compartir aquest temps amb tu i que els meus records desltil·len 'epicitat' al respecte.\nPer molts anys, rebossants de sexe, epicitat i relax.\n\n---\n\nSi estàs cansat de la sobrietat dels partits polítics actuals vota pel canvi, vota PQuim.\nPerquè borratxos, ens entenem millor.\n\n\"El ron de los Mohitzos del PQuim fue subministrado por el gobierno del dictador Maduro a través de una red de entramados empresariales en Cuba\"\nEl Mundo\n\n\"Albert Rivera le hace ojitos al PQuim. El líder del partido Naranja propone a los del GinTonic una coalición electoral. El delegado general de los de la cerveza, Quim Motger, responde tajante: 'Tú tu coca y yo mis mohitzos'\"\nLa Sexta\n\n\"Los borrachos del PQuim se situan como segunda fuerza a dos puntos de PACMA\"\nEl Telediario de la 1"
+    }
+  }
+}
