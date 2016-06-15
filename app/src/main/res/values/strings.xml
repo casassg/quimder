@@ -5,6 +5,9 @@
     <string name="user_photo_description">User Photo</string>
     <string name="user_age_test">20</string>
     <string name="user_description_test">Founder at Creative Productions</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
     <string name="title_activity_greeting"> </string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -95,6 +98,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="action_settings">Settings</string>
     <string name="greeting_card_test">Recordo aquells dies de fa una mica més d\'un any que eres una simple cara coneguda que passejava per la facultat. Ara, després de tot aquest temps, t\'has acabat convertint en més que un company de treballs i universitat. Ets aquest tipus escàs de persona que miro i veig un reflex total de la meva persona: ets organitzat, t\'agrada la cervesa i el bon menjar, ets de poble però a la vegada t\'agrada la ciutat, t\'agrada conduir i així amb un llarg etcètera. Amb aquests 21 anys, només vull desitjar-te el somni de tota persona d\'aquest món: pocs fills i molts intents. Moltes felicitats guapo!</string>
 </resources>
