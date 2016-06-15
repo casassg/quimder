@@ -28,11 +28,15 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAdapter<GreetingCard> adapter;
     private boolean isSplashShown = true;
     private SwipeFlingAdapterView flingContainer;
+    private FirebaseDatabase database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        if (database==null){
+            database = FirebaseDatabase.getInstance();
+        }
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -57,12 +61,14 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void init() {
 
+
+    private void init() {
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
         assert flingContainer != null;
         showSplashScreen();
-        DatabaseReference mGreetingCardDatabase = FirebaseDatabase.getInstance().getReference().child(GREETING_CARDS);
+
+        DatabaseReference mGreetingCardDatabase = database.getReference().child(GREETING_CARDS);
         adapter = new FirebaseAdapter<GreetingCard>(mGreetingCardDatabase, GreetingCard.class, R.layout.tinder, this) {
             @Override
             protected void onKeyAdded(String key) {
@@ -143,11 +149,16 @@ public class MainActivity extends AppCompatActivity {
     private void showSplashScreen() {
         flingContainer.setVisibility(View.INVISIBLE);
         isSplashShown = true;
+
+        Intent intent = new Intent(MainActivity.this, SplashScreen.class);
+        startActivity(intent);
+
     }
 
     private void hideSplashScreen() {
         flingContainer.setVisibility(View.VISIBLE);
         isSplashShown = false;
+        SplashScreen.shouldWeStopNow = true;
     }
 
 }

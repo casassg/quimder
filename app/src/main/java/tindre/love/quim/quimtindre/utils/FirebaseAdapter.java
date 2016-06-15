@@ -86,8 +86,14 @@ public abstract class FirebaseAdapter<T> extends BaseAdapter {
                 String key = dataSnapshot.getKey();
                 T newModel = dataSnapshot.getValue(FirebaseAdapter.this.mModelClass);
                 if (!newModel.toString().isEmpty()) {
-                    int index = mKeys.indexOf(key);
-                    mModels.set(index, newModel);
+
+                    if (!mKeys.contains(key)){
+                        mKeys.add(key);
+                        mModels.add(newModel);
+                    } else {
+                        int index = mKeys.indexOf(key);
+                        mModels.set(index, newModel);
+                    }
                     notifyDataSetChanged();
                 }
             }
