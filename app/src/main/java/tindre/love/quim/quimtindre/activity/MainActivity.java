@@ -3,6 +3,7 @@ package tindre.love.quim.quimtindre.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,13 +11,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
-
 import java.io.IOException;
-
 import tindre.love.quim.quimtindre.R;
 import tindre.love.quim.quimtindre.model.GreetingCard;
 import tindre.love.quim.quimtindre.utils.FirebaseAdapter;
@@ -24,7 +22,7 @@ import tindre.love.quim.quimtindre.utils.ImagesUtils;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final static String GREETING_CARDS = "greetingCards";
+    public final static String GREETING_CARDS = "greetingCards";
     private FirebaseAdapter<GreetingCard> adapter;
     private boolean isSplashShown = true;
     private SwipeFlingAdapterView flingContainer;
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        // FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -41,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
-
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
         assert flingContainer != null;
         showSplashScreen();
@@ -84,6 +81,16 @@ public class MainActivity extends AppCompatActivity {
         };
 
         flingContainer.setAdapter(adapter);
+        flingContainer.setOnItemClickListener(new SwipeFlingAdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClicked(int i, Object o) {
+                GreetingCard card = (GreetingCard) o;
+
+                Intent intent = new Intent(getApplicationContext(), GreetingActivity.class);
+                intent.putExtra(GreetingActivity.USER_ID,card.getAuthor());
+                startActivity(intent);
+            }
+        });
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
             public void removeFirstObjectInAdapter() {
