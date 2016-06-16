@@ -47,8 +47,14 @@ public class AnimalUtils {
     }
 
     public static int getAnimalImageId(String animal) {
+        if (animal.equals("BOSS"))
+            return R.mipmap.boss;
         if (!animals.containsKey(animal))
             return R.mipmap.user;
         return animals.get(animal);
+    }
+
+    public static boolean contains(String animal) {
+        return animals.keySet().contains(animal);
     }
 }
