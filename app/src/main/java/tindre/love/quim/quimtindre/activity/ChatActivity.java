@@ -79,13 +79,6 @@ public class ChatActivity extends AppCompatActivity {
 
     private void notifyAnimal() {
         Snackbar.make(chatLayout, "In this chat session you are a " + animal, Snackbar.LENGTH_LONG)
-                .setAction("Change", new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        animal = AnimalUtils.getRandomAnimal();
-                        notifyAnimal();
-                    }
-                })
                 .show();
     }
 
@@ -101,6 +94,25 @@ public class ChatActivity extends AppCompatActivity {
                 if (messageContent.trim().isEmpty()) {
                     Snackbar.make(chatLayout, "Los mensajes vacios no són permitidos", Snackbar.LENGTH_SHORT)
                             .show();
+                    return;
+                }
+                if (messageContent.trim().contains("/animal ")) {
+                    String[] parts = messageContent.trim().split(" ");
+                    String newAnimal = parts[1];
+                    if (AnimalUtils.contains(newAnimal)) {
+                        animal = newAnimal;
+                        notifyAnimal();
+                    }
+                    else if (newAnimal.equals("BOSS")) {
+                        animal = newAnimal;
+                        Snackbar.make(chatLayout, "YOU ARE THE FUCKING BOSS!", Snackbar.LENGTH_SHORT)
+                                .show();
+                    }
+                    else {
+                        Snackbar.make(chatLayout, "Wrong animal", Snackbar.LENGTH_SHORT)
+                                .show();
+                    }
+                    messageText.setText("");
                     return;
                 }
                 ChatMessage message = new ChatMessage(animal, messageContent);
