@@ -1,11 +1,13 @@
 package tindre.love.quim.quimtindre.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +31,7 @@ public class ChatActivity extends AppCompatActivity {
     private final static String CHAT_MESSAGES = "chatMessages";
     private String animal;
     private FirebaseRecyclerAdapter<ChatMessage, ChatHolder> mAdapter;
+    private RecyclerView recycler;
     private View chatLayout;
 
     @Override
@@ -40,8 +43,8 @@ public class ChatActivity extends AppCompatActivity {
 
         animal = AnimalUtils.getRandomAnimal();
         chatLayout = findViewById(R.id.chat_layout);
+        recycler = (RecyclerView) findViewById(R.id.chat_list);
         assert chatLayout != null;
-        final RecyclerView recycler = (RecyclerView) findViewById(R.id.chat_list);
         assert recycler != null;
         recycler.setHasFixedSize(true);
         recycler.setLayoutManager(new LinearLayoutManager(this));
@@ -75,6 +78,12 @@ public class ChatActivity extends AppCompatActivity {
 
         setupSendAction(mChatMessageDatabase);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.chat, menu);
+        return true;
     }
 
     private void notifyAnimal() {
@@ -129,8 +138,11 @@ public class ChatActivity extends AppCompatActivity {
             onBackPressed();
             return true;
         }
+        if (id == R.id.down) {
+            recycler.smoothScrollToPosition(mAdapter.getItemCount() - 1);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
-
     }
 
     @Override
