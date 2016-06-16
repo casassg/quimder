@@ -28,15 +28,15 @@
                 android:id="@+id/user_image_detail"
                 android:scaleType="centerCrop"
                 android:adjustViewBounds="true"
-
-                android:contentDescription="Detail user image" />
+                android:contentDescription="@string/detail_user_image" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                app:popupTheme="@style/AppTheme.PopupOverlay" />
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:theme="@style/AppTheme.ActionBarTheme"/>
 
 
         </android.support.design.widget.CollapsingToolbarLayout>

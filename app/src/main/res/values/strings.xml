@@ -15,4 +15,6 @@
     <string name="date_test">12:33 12/3/2015</string>
     <string name="title_chat_activity">Xat DeQUIMeró</string>
     <string name="title_quimder">quimder title</string>
+    <string name="logo_text">logo</string>
+    <string name="detail_user_image">Detail user image</string>
 </resources>

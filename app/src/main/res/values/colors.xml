@@ -2,12 +2,13 @@
 <resources>
     <color name="colorPrimary">#fdf7eb</color>
     <color name="colorPrimaryDark">#cecac1</color>
-    <color name="colorAccent">#FFC107</color>
+    <color name="colorAccent">#fc735d</color>
     <color name="colorEdit">#bfbdbd</color>
     <color name="background">#eae1e1</color>
     <color name="green">#FF63FC44</color>
     <color name="black">#FF000000</color>
     <color name="gray">#787676</color>
     <color name="white">#FFFFFF</color>
+    <color name="tinder">#fc735d</color>
     <color name="our_primary_material_dark">@color/material_grey_900</color>
 </resources>

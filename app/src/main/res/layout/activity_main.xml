@@ -23,6 +23,12 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@mipmap/quimder_logo_4"
+                android:contentDescription="@string/logo_text" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:scaleX="0.75"
                 android:scaleY="0.75"
                 android:src="@drawable/titulo1"
