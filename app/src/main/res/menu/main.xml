@@ -4,7 +4,7 @@
     <item
         android:id="@+id/open_chat"
         android:orderInCategory="100"
-        android:icon="@drawable/ic_message_text_white_48dp"
-        android:title="@string/title_chat_activity"
+        android:icon="@drawable/my_message_icon"
+        android:title="@string/title_activity_greeting"
         app:showAsAction="always" />
 </menu>
