@@ -38,6 +38,7 @@ public class AnimalUtils {
         animals.put("Monkey", R.mipmap.monkey);
         animals.put("Rabbit", R.mipmap.rabbit);
         animals.put("Hippo", R.mipmap.hipo);
+        animals.put("Quokka", R.mipmap.quokka);
     }
 
     public static String getRandomAnimal() {

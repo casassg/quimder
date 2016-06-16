@@ -7,9 +7,10 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
         android:id="@+id/user_icon"
+        android:layout_margin="4dp"
         android:src="@mipmap/user"
         android:contentDescription="@string/user_description_test" />
     <android.support.v7.widget.CardView
@@ -22,7 +23,6 @@
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
             android:orientation="vertical">
 
             <TextView
@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/user_description_test"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textIsSelectable="true"
                 android:layout_margin="5dp" />
 

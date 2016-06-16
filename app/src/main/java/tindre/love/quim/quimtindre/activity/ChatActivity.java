@@ -78,7 +78,7 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     private void notifyAnimal() {
-        Snackbar.make(chatLayout, "In this chat session you are a " + animal, Snackbar.LENGTH_SHORT)
+        Snackbar.make(chatLayout, "In this chat session you are a " + animal, Snackbar.LENGTH_LONG)
                 .setAction("Change", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
