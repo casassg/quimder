@@ -12,17 +12,32 @@ public class AnimalUtils {
 
     static {
         animals = new HashMap<>();
-        animals.put("Koala", R.mipmap.user);
-        animals.put("Dog", R.mipmap.user);
-        animals.put("Cat", R.mipmap.user);
-        animals.put("Cow", R.mipmap.user);
-        animals.put("Duck", R.mipmap.user);
-        animals.put("Crocodile", R.mipmap.user);
-        animals.put("Dolphin", R.mipmap.user);
-        animals.put("Panda", R.mipmap.user);
-        animals.put("Turtle", R.mipmap.user);
-        animals.put("Fish", R.mipmap.user);
-        animals.put("Dinosaur", R.mipmap.user);
+        animals.put("Koala", R.mipmap.koala);
+        animals.put("Dog", R.mipmap.dog);
+        animals.put("Cat", R.mipmap.cat);
+        animals.put("Cow", R.mipmap.cow);
+        animals.put("Duck", R.mipmap.duck);
+        animals.put("Crocodile", R.mipmap.crocodile);
+        animals.put("Dolphin", R.mipmap.dolphin);
+        animals.put("Panda", R.mipmap.panda);
+        animals.put("Turtle", R.mipmap.turtle);
+        animals.put("Fish", R.mipmap.fish);
+        animals.put("Dinosaur", R.mipmap.dinosaur);
+        animals.put("Sheep", R.mipmap.sheep);
+        animals.put("Horse", R.mipmap.horse);
+        animals.put("Pig", R.mipmap.pig);
+        animals.put("Elephant", R.mipmap.elephant);
+        animals.put("Giraffe", R.mipmap.giraffe);
+        animals.put("Cock", R.mipmap.cock);
+        animals.put("Wolf", R.mipmap.wolf);
+        animals.put("Elk", R.mipmap.elk);
+        animals.put("Mouse", R.mipmap.mouse);
+        animals.put("Frog", R.mipmap.frog);
+        animals.put("Kangaroo", R.mipmap.kangaroo);
+        animals.put("Owl", R.mipmap.owl);
+        animals.put("Monkey", R.mipmap.monkey);
+        animals.put("Rabbit", R.mipmap.rabbit);
+        animals.put("Hippo", R.mipmap.hipo);
     }
 
     public static String getRandomAnimal() {

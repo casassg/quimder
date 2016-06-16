@@ -71,8 +71,22 @@ public class ChatActivity extends AppCompatActivity {
         });
         recycler.setAdapter(mAdapter);
 
+        notifyAnimal();
+
         setupSendAction(mChatMessageDatabase);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    private void notifyAnimal() {
+        Snackbar.make(chatLayout, "In this chat session you are a " + animal, Snackbar.LENGTH_SHORT)
+                .setAction("Change", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        animal = AnimalUtils.getRandomAnimal();
+                        notifyAnimal();
+                    }
+                })
+                .show();
     }
 
     private void setupSendAction(final DatabaseReference mRef) {
