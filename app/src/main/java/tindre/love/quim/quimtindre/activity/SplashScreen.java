@@ -11,8 +11,6 @@ import tindre.love.quim.quimtindre.R;
 
 public class SplashScreen extends AppCompatActivity {
 
-
-
     /** Called when the activity is first created. */
     Thread splashTread;
     public static boolean shouldWeStopNow = false;
@@ -32,12 +30,19 @@ public class SplashScreen extends AppCompatActivity {
         l.clearAnimation();
         l.startAnimation(anim);
 
+        Animation anim_alpha = AnimationUtils.loadAnimation(this, R.anim.alpha);
+        anim.reset();
+
         anim = AnimationUtils.loadAnimation(this, R.anim.translate);
         anim.reset();
         ImageView iv = (ImageView) findViewById(R.id.splash);
+        ImageView iv2 = (ImageView) findViewById(R.id.title_quimder);
         assert iv != null;
+        assert iv2 != null;
         iv.clearAnimation();
+        iv2.clearAnimation();
         iv.startAnimation(anim);
+        iv2.startAnimation(anim_alpha);
 
         splashTread = new Thread() {
             @Override
