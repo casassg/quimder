@@ -49,6 +49,8 @@ public class AnimalUtils {
     public static int getAnimalImageId(String animal) {
         if (animal.equals("BOSS"))
             return R.mipmap.boss;
+        if (animal.equals("KIM"))
+            return R.mipmap.quimoh;
         if (!animals.containsKey(animal))
             return R.mipmap.user;
         return animals.get(animal);
