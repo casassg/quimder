@@ -51,7 +51,7 @@ public class ChatActivity extends AppCompatActivity {
 
         DatabaseReference mChatMessageDatabase = FirebaseDatabase.getInstance().getReference().child(CHAT_MESSAGES);
 
-        mAdapter = new FirebaseRecyclerAdapter<ChatMessage, ChatHolder>(ChatMessage.class, R.layout.message, ChatHolder.class, mChatMessageDatabase) {
+        mAdapter = new FirebaseRecyclerAdapter<ChatMessage, ChatHolder>(ChatMessage.class, R.layout.message, ChatHolder.class, mChatMessageDatabase.limitToLast(100)) {
             @Override
             public void populateViewHolder(ChatHolder chatMessageViewHolder, ChatMessage chatMessage, int position) {
                 chatMessageViewHolder.setAuthor(chatMessage.getAuthor());
