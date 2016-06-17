@@ -1,6 +1,5 @@
 package tindre.love.quim.quimtindre.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -105,7 +104,7 @@ public class ChatActivity extends AppCompatActivity {
                             .show();
                     return;
                 }
-                if (messageContent.trim().contains("/animal ")) {
+                if (messageContent.trim().startsWith("/animal ")) {
                     String[] parts = messageContent.trim().split(" ");
                     String newAnimal = parts[1];
                     if (AnimalUtils.contains(newAnimal)) {
@@ -121,6 +120,13 @@ public class ChatActivity extends AppCompatActivity {
                         Snackbar.make(chatLayout, "Wrong animal", Snackbar.LENGTH_SHORT)
                                 .show();
                     }
+                    messageText.setText("");
+                    return;
+                }
+                if (messageContent.trim().startsWith("/encarna")) {
+                    animal = "KIM";
+                    Snackbar.make(chatLayout, "Welcome back Quim! Have fun ;)", Snackbar.LENGTH_SHORT)
+                            .show();
                     messageText.setText("");
                     return;
                 }
