@@ -1,4 +1,1194 @@
 {
+  "chatMessages" : {
+    "-KKNXFAYa_GaU6qAJ3n3" : {
+      "author" : "Rabbit",
+      "content" : "Welcome to the chat!"
+    },
+    "-KKNXKi1R0dItcV1BilK" : {
+      "author" : "Crocodile",
+      "content" : "Hello Rabbit! Whats up?"
+    },
+    "-KKNXP6PhzDo7nQmDOwM" : {
+      "author" : "Koala",
+      "content" : "Hello people!"
+    },
+    "-KKNXSgrJWh1QgGS5R0a" : {
+      "author" : "Mouse",
+      "content" : "Hi to everybody!"
+    },
+    "-KKNXXRfgYJFs8snIqT5" : {
+      "author" : "Duck",
+      "content" : "Hehe I'm a duck bitches!"
+    },
+    "-KKNXav0xgLwBcAqjBPQ" : {
+      "author" : "Pig",
+      "content" : "Bah, the pigs are better!"
+    },
+    "-KKNXe_WhXTBVXiuK-Cs" : {
+      "author" : "Frog",
+      "content" : "Frogs FTW!"
+    },
+    "-KKNXm6xqgv9ELUS6ln0" : {
+      "author" : "Dinosaur",
+      "content" : "Bitches pls! I'm the oldest in this group!"
+    },
+    "-KKNXr29FA_iYhYwhtlH" : {
+      "author" : "Cow",
+      "content" : "Hellouuuuuuuuuuuuu! Late?"
+    },
+    "-KKNZuayJg1vp4MrmMgK" : {
+      "author" : "Crocodile",
+      "content" : "Never too late"
+    },
+    "-KKN_-GFFYT7TkUBMwVt" : {
+      "author" : "Crocodile",
+      "content" : "Is it too late to say sorrryyy?"
+    },
+    "-KKN_Gu1YfqeErSKxBnq" : {
+      "author" : "Mouse",
+      "content" : "Hehehe"
+    },
+    "-KKN_P-haG_GUIyxJlPA" : {
+      "author" : "Mouse",
+      "content" : "I'm scared!"
+    },
+    "-KKNwsw8Q9LtMZobW-Tc" : {
+      "author" : "Panda",
+      "content" : "Im a PANDA"
+    },
+    "-KKNwvC0TMdKO5-2iHCR" : {
+      "author" : "Panda",
+      "content" : "You can't say no to a Panda"
+    },
+    "-KKO6WQLqoW3bYQJwihL" : {
+      "author" : "Horse",
+      "content" : "Im a horse!"
+    },
+    "-KKO71ZxK5is3m6nltTa" : {
+      "author" : "Monkey",
+      "content" : "Be a horse little buddy be a horsee"
+    },
+    "-KKO73olN5BxhEvRCMY3" : {
+      "author" : "Monkey",
+      "content" : "Oh wait I'm a monkey"
+    },
+    "-KKOAkWcUJtOS8iqi4mG" : {
+      "author" : "Horse",
+      "content" : "Horse is better sorry"
+    },
+    "-KKOCFKmE8QUzTWhAHAa" : {
+      "author" : "Horse",
+      "content" : "Hiii"
+    },
+    "-KKOCHlqJKuqoGmGUwE5" : {
+      "author" : "Panda",
+      "content" : "Oh hey"
+    },
+    "-KKOCM5Yj41pn265Dd4A" : {
+      "author" : "Koala",
+      "content" : "Hello!"
+    },
+    "-KKOCN-Rqm7xAxcLqlPC" : {
+      "author" : "Koala",
+      "content" : "Im a koala"
+    },
+    "-KKOCYJ_LuTJOHPAGttA" : {
+      "author" : "Quokka",
+      "content" : "Hehe im a quokka"
+    },
+    "-KKOCg9OIfnKH1QSRu1r" : {
+      "author" : "Quokka",
+      "content" : "Shhhhh"
+    },
+    "-KKOChF4PWDfldYyDR0t" : {
+      "author" : "Panda",
+      "content" : "What is a quokka?"
+    },
+    "-KKOClIYPEuuykh4DsrH" : {
+      "author" : "Quokka",
+      "content" : "M A G I C"
+    },
+    "-KKOCoiZYlqe8qXeuvz4" : {
+      "author" : "Panda",
+      "content" : "Aaaand its gone"
+    },
+    "-KKOCpUKRs5NLTjAwYsA" : {
+      "author" : "Panda",
+      "content" : "GONE"
+    },
+    "-KKOCqkIi6N44f0jNjVO" : {
+      "author" : "Quokka",
+      "content" : "goooooneee"
+    },
+    "-KKOCs3rdK58cVpePrQb" : {
+      "author" : "Panda",
+      "content" : "Gooooooneeeee"
+    },
+    "-KKOCte2My4NODY3bv-Q" : {
+      "author" : "Panda",
+      "content" : "This is just priceless"
+    },
+    "-KKOCtiyBxuaEm8jSsdb" : {
+      "author" : "Dog",
+      "content" : "Goooooone"
+    },
+    "-KKODAeSsNTlDYsGWrGy" : {
+      "author" : "Horse",
+      "content" : "I luf it"
+    },
+    "-KKOEE2xTVOE3xOZIgxM" : {
+      "author" : "Dinosaur",
+      "content" : "Hey!"
+    },
+    "-KKOELQv2trZ7HIzEgXW" : {
+      "author" : "Duck",
+      "content" : "Holaaaa"
+    },
+    "-KKOPR2eRsUc3oO3eQ27" : {
+      "author" : "Duck",
+      "content" : "This is going to be a mess jajajajaj"
+    },
+    "-KKOPXFCk8eqf-_vMYeA" : {
+      "author" : "Duck",
+      "content" : "We need the new version to the Play storeeeeee"
+    },
+    "-KKOP_pl3-8KVBKU8Cx-" : {
+      "author" : "Duck",
+      "content" : "PLAY STOREEEE"
+    },
+    "-KKOR68_7Y_H2JoHh7Lp" : {
+      "author" : "Duck",
+      "content" : "COME ONNN"
+    },
+    "-KKOc9itxab8Gw-APsfa" : {
+      "author" : "Rabbit",
+      "content" : "Holaaa!"
+    },
+    "-KKOcBAnzdGfLllOM6fe" : {
+      "author" : "Rabbit",
+      "content" : "Ja esta acabat cony!"
+    },
+    "-KKOdCCmeCbE889vMtZ0" : {
+      "author" : "Mouse",
+      "content" : "Olii"
+    },
+    "-KKOdFNJd-VHs3BxjdU_" : {
+      "author" : "Mouse",
+      "content" : "Jope soy una rata :("
+    },
+    "-KKOdR2p8Snr91a-yIqt" : {
+      "author" : "Dolphin",
+      "content" : "Ahora soy un delfiiiin soy un delfiinn"
+    },
+    "-KKOeYIoBMZ5FQBMXCLG" : {
+      "author" : "Pig",
+      "content" : "Soy un delfin soy un delfin"
+    },
+    "-KKOe_KIjQ6wsEncRG3s" : {
+      "author" : "Pig",
+      "content" : "M E N T I R A"
+    },
+    "-KKOtAkrqB3VHXA5o9T2" : {
+      "author" : "Mouse",
+      "content" : "Es too mentira"
+    },
+    "-KKOtC68LB7i-6Y_4uWP" : {
+      "author" : "Mouse",
+      "content" : "MENTIRAAA"
+    },
+    "-KKP0z_DbH0nCkB1crAx" : {
+      "author" : "Cat",
+      "content" : "Funsionaaaaa"
+    },
+    "-KKP1-TunxyTw1pe6zg4" : {
+      "author" : "Cat",
+      "content" : "Miaw"
+    },
+    "-KKP10TuMbJ9I6XTrpI9" : {
+      "author" : "Cat",
+      "content" : "Miaow"
+    },
+    "-KKP11I_8QONmoGG2scB" : {
+      "author" : "Cat",
+      "content" : "Mew"
+    },
+    "-KKP12_IqLHDeNQGnrD4" : {
+      "author" : "Cat",
+      "content" : "Miwi"
+    },
+    "-KKP1RcxLc-u2kczlRLl" : {
+      "author" : "Cat",
+      "content" : "😁"
+    },
+    "-KKP2VFYfGASk6kQ4jpU" : {
+      "author" : "Wolf",
+      "content" : "Kfjfñdnf"
+    },
+    "-KKP3m89ZOAqwXel6aak" : {
+      "author" : "Rabbit",
+      "content" : "I'm a rabbit!"
+    },
+    "-KKP3oIiBExC-5jqzRB0" : {
+      "author" : "Rabbit",
+      "content" : "This chat knows me!"
+    },
+    "-KKP4Uf1uZl5VUxc3y2_" : {
+      "author" : "Cat",
+      "content" : "Who is that?"
+    },
+    "-KKP4f_URSCgGOUJFH8R" : {
+      "author" : "Crocodile",
+      "content" : "Ara un cocodril! Jajajjaa"
+    },
+    "-KKP4i0MWF9Z6xfqPew4" : {
+      "author" : "Crocodile",
+      "content" : "Hohoho michell! 😂"
+    },
+    "-KKP4ovo2GCIiGASGmgQ" : {
+      "author" : "Cat",
+      "content" : "Aleoh"
+    },
+    "-KKP4pzcsJVpXYqmP9Wg" : {
+      "author" : "Crocodile",
+      "content" : "Siii!!"
+    },
+    "-KKP4qcP9lJ9I4KUfi-D" : {
+      "author" : "Crocodile",
+      "content" : "Geriii!!!"
+    },
+    "-KKP4qeAStpj8uVDBLQi" : {
+      "author" : "Cat",
+      "content" : "Stop being michel"
+    },
+    "-KKP4qwD7_eHUrB1w6AG" : {
+      "author" : "Crocodile",
+      "content" : "Jajaja"
+    },
+    "-KKP4rpIVm0OqPVGW1KX" : {
+      "author" : "Cat",
+      "content" : "Helow"
+    },
+    "-KKP4ta_D3Z4cqBBF4-8" : {
+      "author" : "Cat",
+      "content" : "Mola perque es temps real"
+    },
+    "-KKP4vj-UKnk4e6gd_JI" : {
+      "author" : "Crocodile",
+      "content" : "Ja veus!"
+    },
+    "-KKP4vrJPo8XXklDEH4b" : {
+      "author" : "Cat",
+      "content" : "Firebase biatch"
+    },
+    "-KKP4wUTV4lrP5DP6Rfy" : {
+      "author" : "Crocodile",
+      "content" : "Es brutal!"
+    },
+    "-KKP4xQ4qk7O6UIQ7gHz" : {
+      "author" : "Cat",
+      "content" : "Yeaj"
+    },
+    "-KKP4zKpqcB1R6JF3_u7" : {
+      "author" : "Cat",
+      "content" : "Es presioso"
+    },
+    "-KKP50Sslu4YXo8wNOjF" : {
+      "author" : "Cat",
+      "content" : "Lo bo es que puc fer:"
+    },
+    "-KKP52ADGXxd74yn0mbc" : {
+      "author" : "Hippo",
+      "content" : "Magia"
+    },
+    "-KKP52rGeTl7wbSx5Th3" : {
+      "author" : "Crocodile",
+      "content" : "Us a quedat de putis! 💪"
+    },
+    "-KKP53SZXaf77GZ3lGHy" : {
+      "author" : "Hippo",
+      "content" : "Ara soc un hippo"
+    },
+    "-KKP54Y9cZtLinVpchza" : {
+      "author" : "Hippo",
+      "content" : "Danke"
+    },
+    "-KKP55EvMKlKTSC1g74u" : {
+      "author" : "Wolf",
+      "content" : "Me too!"
+    },
+    "-KKP56yQziavpTUXaUWs" : {
+      "author" : "Hippo",
+      "content" : "Aviam si la gent va entrant"
+    },
+    "-KKP5AW2bJYd1c6SXGY6" : {
+      "author" : "Hippo",
+      "content" : "Estara guay si al dequimero hi ha converses randomaqui"
+    },
+    "-KKP5B3ZsuPTQjTL940n" : {
+      "author" : "Wolf",
+      "content" : "I'm going to eat all the people! "
+    },
+    "-KKP5CqA4yUeDM7KjzY0" : {
+      "author" : "Wolf",
+      "content" : "Molt random! Jajaja"
+    },
+    "-KKP5Ef9-AiyNRfca3Rf" : {
+      "author" : "Hippo",
+      "content" : "So random"
+    },
+    "-KKP5FuMndUDNve3cbxK" : {
+      "author" : "Wolf",
+      "content" : "Tio!"
+    },
+    "-KKP5HY5NOug7QKUwos-" : {
+      "author" : "Hippo",
+      "content" : "So random said the hippo"
+    },
+    "-KKP5I0IBc9JN_5U9HHQ" : {
+      "author" : "Hippo",
+      "content" : "Que?"
+    },
+    "-KKP5JZU7vbBwOznR3hI" : {
+      "author" : "Wolf",
+      "content" : "Nexessito una birra... "
+    },
+    "-KKP5KeNmI3l5nGF8Oew" : {
+      "author" : "Hippo",
+      "content" : "Me tpp"
+    },
+    "-KKP5L_fBfRmiGnQvRLz" : {
+      "author" : "Hippo",
+      "content" : "*too"
+    },
+    "-KKP5LnAHFMRWvEecUBg" : {
+      "author" : "Wolf",
+      "content" : "Estas a casa?"
+    },
+    "-KKP5MwD7_TdR4pTMi97" : {
+      "author" : "Hippo",
+      "content" : "Estic fent ASW"
+    },
+    "-KKP5NZSl_9gkI5vOzVK" : {
+      "author" : "Hippo",
+      "content" : "No, uni"
+    },
+    "-KKP5O6_EVUJNmnsFSIr" : {
+      "author" : "Wolf",
+      "content" : "Joooooup..."
+    },
+    "-KKP5OyGlS_XdRdEzyOJ" : {
+      "author" : "Wolf",
+      "content" : "😭😭"
+    },
+    "-KKP5Q0yM8bYs23xVZ9C" : {
+      "author" : "Hippo",
+      "content" : "Pero haig de estudiar, que no he fet res"
+    },
+    "-KKP5QOdJ7o3t9dx2U-j" : {
+      "author" : "Wolf",
+      "content" : "Vaig a fer ER... "
+    },
+    "-KKP5R_VzThdAvge0XGZ" : {
+      "author" : "Hippo",
+      "content" : "Literalment"
+    },
+    "-KKP5S661RW-E3EWBZXM" : {
+      "author" : "Hippo",
+      "content" : "Demà?"
+    },
+    "-KKP5Sm7oEMaf3TNgdxv" : {
+      "author" : "Wolf",
+      "content" : "Que acabi tot jaaaaaa!!!!"
+    },
+    "-KKP5UJa8O-qG5wqN2BF" : {
+      "author" : "Wolf",
+      "content" : "Dema puc per la tarda"
+    },
+    "-KKP5UL2-_skGra8xvZn" : {
+      "author" : "Hippo",
+      "content" : "Jajaj ja falta poc"
+    },
+    "-KKP5XGk7LazTSQtke6b" : {
+      "author" : "Wolf",
+      "content" : "A la nit tinc una festa de cumple jaja"
+    },
+    "-KKP5Y9ueDssA4NphFvb" : {
+      "author" : "Hippo",
+      "content" : "Pos birra i sopar demà?"
+    },
+    "-KKP5YXSBmnPG0Y9nRsE" : {
+      "author" : "Hippo",
+      "content" : "Vaya"
+    },
+    "-KKP5ZwjZ0BBmDkNjYpm" : {
+      "author" : "Hippo",
+      "content" : "Pos birra i prou?"
+    },
+    "-KKP5cNm1e_ppaiZkOWG" : {
+      "author" : "Wolf",
+      "content" : "Si pliiis"
+    },
+    "-KKP5d4ERkMCTi8Y6BVs" : {
+      "author" : "Hippo",
+      "content" : "SI ALGU VEU AIXO: DEMA BIRRA?"
+    },
+    "-KKP5e4ttkYi7P8fqHVH" : {
+      "author" : "Wolf",
+      "content" : "Jajaja"
+    },
+    "-KKP5gjhIANUMIFk0fZh" : {
+      "author" : "Wolf",
+      "content" : "Hi sigui jo fare birra"
+    },
+    "-KKP5idkT2KRfYCXLm4R" : {
+      "author" : "Wolf",
+      "content" : "Amb mi vindra la laia"
+    },
+    "-KKP5kcmZiSFFkIvbrod" : {
+      "author" : "Wolf",
+      "content" : "Si la vols coneixer.... "
+    },
+    "-KKP5khlhDI54IYokq-e" : {
+      "author" : "Hippo",
+      "content" : "Crec que encara no te prou exit per fer plans"
+    },
+    "-KKP5lUHt2M4UPraRJPr" : {
+      "author" : "Hippo",
+      "content" : "Uuuuh"
+    },
+    "-KKP5lsyjoQjZI8Wtm6n" : {
+      "author" : "Hippo",
+      "content" : "Ofc"
+    },
+    "-KKP5mpc_wJ3H63pdm3_" : {
+      "author" : "Hippo",
+      "content" : "Of coursw"
+    },
+    "-KKP5nyaoA1IxHQZdaHy" : {
+      "author" : "Wolf",
+      "content" : "Jakkaaak"
+    },
+    "-KKP5rAfrUKjO_xJve9G" : {
+      "author" : "Wolf",
+      "content" : "Pues anirem a comprar un regal "
+    },
+    "-KKP5rkwsvMx4gDZhiSz" : {
+      "author" : "Hippo",
+      "content" : "Pos ho dic pel grup aviam qui vee"
+    },
+    "-KKP5sh3HMdqvKod4ycH" : {
+      "author" : "Hippo",
+      "content" : "A la birra"
+    },
+    "-KKP5tezrQ44KEDWzIAe" : {
+      "author" : "Wolf",
+      "content" : "Fem birra i despres vaig a castefa"
+    },
+    "-KKP5uuXgo9_pAWWu8pe" : {
+      "author" : "Wolf",
+      "content" : "Jajajaa"
+    },
+    "-KKP5vN1xsT_bu_oEQmq" : {
+      "author" : "Hippo",
+      "content" : "A quina hora marxes?"
+    },
+    "-KKP5vvuyLvW3K6CS6NN" : {
+      "author" : "Wolf",
+      "content" : "Okey"
+    },
+    "-KKP5wE3doHdSPzfg7BN" : {
+      "author" : "Wolf",
+      "content" : "No se"
+    },
+    "-KKP5y6m4KwC7Ch7fJM8" : {
+      "author" : "Hippo",
+      "content" : "Pero tard?"
+    },
+    "-KKP5yEpJkbGD6LNdw_D" : {
+      "author" : "Wolf",
+      "content" : "Li hem de fer una sorpresa per sopar"
+    },
+    "-KKP5zoGHGaGsNLmwr_O" : {
+      "author" : "Wolf",
+      "content" : "No molt tard"
+    },
+    "-KKP6-KyAAx4PSiIMTrj" : {
+      "author" : "Hippo",
+      "content" : "A la laia?"
+    },
+    "-KKP604QghWvWDAsXZFh" : {
+      "author" : "Wolf",
+      "content" : "Sep"
+    },
+    "-KKP60bbgspPO7IkhLF2" : {
+      "author" : "Wolf",
+      "content" : "Nono"
+    },
+    "-KKP64ka98dJWX0QZAOd" : {
+      "author" : "Wolf",
+      "content" : "La laia tb va a la fwsta que vaig"
+    },
+    "-KKP65s1Au1Cm84raPxg" : {
+      "author" : "Hippo",
+      "content" : "Mmmm bueno acabo inlab tard dema segurament"
+    },
+    "-KKP66GzKhH8NScpxXcQ" : {
+      "author" : "Hippo",
+      "content" : "Ah vale"
+    },
+    "-KKP69Kt0JrKiJwfWbnU" : {
+      "author" : "Hippo",
+      "content" : "Cap a les 5 m'escapo"
+    },
+    "-KKP6FMJoKCOhQ_EzV4q" : {
+      "author" : "Hippo",
+      "content" : "(torno al wassap)"
+    },
+    "-KKP6JZlTlNK5YMGiXjp" : {
+      "author" : "Wolf",
+      "content" : "Okey! "
+    },
+    "-KKP6Mn85_9lBX8hWW1B" : {
+      "author" : "Rabbit",
+      "content" : "Hola!"
+    },
+    "-KKP8MLvctpY4eP2m6Ka" : {
+      "author" : "Koala",
+      "content" : "Hola"
+    },
+    "-KKP8Sw8BWLFlbe1Hv4A" : {
+      "author" : "Koala",
+      "content" : "?"
+    },
+    "-KKP8p7naq3zrPvGSkJn" : {
+      "author" : "Koala",
+      "content" : "Y se marchoooo y a su barco le llamoooo libertaaad"
+    },
+    "-KKPEK4qGvLGd3iumIB-" : {
+      "author" : "Quokka",
+      "content" : "Soc un quokka lerele"
+    },
+    "-KKPI3k4O4jI9ReKPsSx" : {
+      "author" : "Giraffe",
+      "content" : "Ni tan se vols sabia que aquest animal existia"
+    },
+    "-KKPKABI-4LDGB8scMj8" : {
+      "author" : "Kangaroo",
+      "content" : "Hola!"
+    },
+    "-KKPKDbXxrZLeorFgS6A" : {
+      "author" : "Kangaroo",
+      "content" : "Sera mil randomm...."
+    },
+    "-KKPKDw8euSoz-mTnaYf" : {
+      "author" : "Kangaroo",
+      "content" : "Jajakaaja"
+    },
+    "-KKPLEvgVd3gX-U9yxBR" : {
+      "author" : "Giraffe",
+      "content" : "Randomnes will be much appreciated"
+    },
+    "-KKPLITmnljUnqXftyAe" : {
+      "author" : "Giraffe",
+      "content" : "(torno a ser la jirafa ueee)"
+    },
+    "-KKPLQWK4zZ0GLciBC2L" : {
+      "author" : "Giraffe",
+      "content" : "Pregunta: 1+1?"
+    },
+    "-KKPk6WzzaWEcwjhBaTh" : {
+      "author" : "Fish",
+      "content" : "3"
+    },
+    "-KKPkDi4eSJ9zBiCNSFc" : {
+      "author" : "Koala",
+      "content" : "4"
+    },
+    "-KKPkEBNMr7GJrT7gBSk" : {
+      "author" : "Fish",
+      "content" : "O 4, no sé, tinc memòria de peix :("
+    },
+    "-KKPkFRuGdGk7orWeauY" : {
+      "author" : "Koala",
+      "content" : "Ola peix"
+    },
+    "-KKPkGHpMmzba8lfW0Dm" : {
+      "author" : "Koala",
+      "content" : "Wassa?"
+    },
+    "-KKPkI2379Z3cgROKwA9" : {
+      "author" : "Fish",
+      "content" : "Hola koala"
+    },
+    "-KKPkKWPkjIvGSTwCVcS" : {
+      "author" : "Fish",
+      "content" : "Vols rotllu? "
+    },
+    "-KKPkLrpfWXIqE_qq2Tm" : {
+      "author" : "Horse",
+      "content" : "Koala? Im a horse!!"
+    },
+    "-KKPkXJQ0bd4DsX83QWb" : {
+      "author" : "BOSS",
+      "content" : "O no............. Im jesus"
+    },
+    "-KKPkfTqOFwyaWKrhZyt" : {
+      "author" : "Monkey",
+      "content" : "🙈🙈🙈🙈🙈🙈🙈"
+    },
+    "-KKPpCY2kaxNwFLORCbe" : {
+      "author" : "Panda",
+      "content" : "Why? We said that this was a surprise 🙈"
+    },
+    "-KKPpNJYzZenNdHIdTk9" : {
+      "author" : "Panda",
+      "content" : "Que anonimo todo"
+    },
+    "-KKPuBLjVEU59x8t3D8Y" : {
+      "author" : "Quokka",
+      "content" : "Que carallo és un Quokka?"
+    },
+    "-KKPwQVZcDdwS1Blmiys" : {
+      "author" : "Wolf",
+      "content" : "Ni idea"
+    },
+    "-KKPyJ5O6YvJSAEevezE" : {
+      "author" : "Hippo",
+      "content" : "Siempre nos quedara Quimder"
+    },
+    "-KKPyfgEPcB6L2b7ylmj" : {
+      "author" : "Cat",
+      "content" : "Muula"
+    },
+    "-KKQ1vN9RMnlEm9XPQi8" : {
+      "author" : "Crocodile",
+      "content" : "Es bestial aixo de veure com animals parlen"
+    },
+    "-KKQ3Ml7lC0TOTBRudUE" : {
+      "author" : "Horse",
+      "content" : "Wow"
+    },
+    "-KKQ3Ns4iZaj_AgS4-vr" : {
+      "author" : "Horse",
+      "content" : "Hi ha xat?"
+    },
+    "-KKQ3OlUvNMyDhFP-2ML" : {
+      "author" : "Horse",
+      "content" : "Wtf?!??!"
+    },
+    "-KKQ3QX-GBIsn63ugHHV" : {
+      "author" : "Horse",
+      "content" : "Soc un Cavall!!!"
+    },
+    "-KKQ3_Rxs9zYmAi71Lb3" : {
+      "author" : "Hippo",
+      "content" : "Hola cavall"
+    },
+    "-KKQ4y4kMyzKseT4Fc0M" : {
+      "author" : "Dolphin",
+      "content" : "Yo no soy marinero"
+    },
+    "-KKQ5-_L05eAny2w23ex" : {
+      "author" : "Dolphin",
+      "content" : "Yo no soy marinero"
+    },
+    "-KKQ5518_mmXLGFM2uEp" : {
+      "author" : "Dolphin",
+      "content" : "Soy un delfín, soy un delfín"
+    },
+    "-KKQ5DKO33UdKqv7ocEz" : {
+      "author" : "BOSS",
+      "content" : "Ya, delfín...."
+    },
+    "-KKQCacF3bKRH3b6gIt7" : {
+      "author" : "Dinosaur",
+      "content" : "Es de la festa i prou?"
+    },
+    "-KKQCeKBPfiwb2KhklQ3" : {
+      "author" : "Dinosaur",
+      "content" : "Soc un tyranosaurus rex, ole yo"
+    },
+    "-KKQD-1sd6N58vVfMJ8J" : {
+      "author" : "Wolf",
+      "content" : "Les dedicacions on son?"
+    },
+    "-KKQFxQZaK9PGJGc5kqx" : {
+      "author" : "Elephant",
+      "content" : "A cada \"carta\" si clickeu s'obre una pantalla amb les dedicacions"
+    },
+    "-KKQHTbYMWBamDCTLSyH" : {
+      "author" : "BOSS",
+      "content" : "El xat es basicament per animar la festa. Pero despres es quedarà (a no ser que ens treguin la quota del servidor). I lo de les dedicatories, les podeu llegir fent click a la foto de cada persona (tal com diu l'elefant)"
+    },
+    "-KKQJTe3YbUeBE-nkQtt" : {
+      "author" : "Dinosaur",
+      "content" : "El tete elefante sabe!"
+    },
+    "-KKRnYBzYE4Vyu0qjmas" : {
+      "author" : "BOSS",
+      "content" : "Vostre senyor us desitja un bon dia i una bona revetlla del DeQuimeró!"
+    },
+    "-KKSDy3nO2TK9V7IXHRS" : {
+      "author" : "Cow",
+      "content" : "Jdfjdd"
+    },
+    "-KKSLGEjD8UUrKM8Rll_" : {
+      "author" : "Panda",
+      "content" : "Gracias!"
+    },
+    "-KKSLM2zNyZOIRMiq_4u" : {
+      "author" : "Panda",
+      "content" : "DeQuimeró is coming"
+    },
+    "-KKT36VUVLxRRpDNt2Yg" : {
+      "author" : "Monkey",
+      "content" : "Usar el quimder al costat de en Quim"
+    },
+    "-KKT38omfgxFU_DjnUDf" : {
+      "author" : "Monkey",
+      "content" : "Bibo al limite"
+    },
+    "-KKT8EF1kw2RNOfprz8x" : {
+      "author" : "Cow",
+      "content" : "Bilbo al limite"
+    },
+    "-KKT8FJMZGzikpugKfTH" : {
+      "author" : "Cow",
+      "content" : "Agh!"
+    },
+    "-KKT8Gqu5oY5MbaYW4Uf" : {
+      "author" : "Cow",
+      "content" : "Xq ara soc una vaca?!"
+    },
+    "-KKTMrkLOIipFfIGAV11" : {
+      "author" : "Elephant",
+      "content" : "Pepino"
+    },
+    "-KKTMusPBu8lGBTPkVTd" : {
+      "author" : "Kangaroo",
+      "content" : "Zariguella"
+    },
+    "-KKTYZTJVZiRggtitt_6" : {
+      "author" : "Frog",
+      "content" : "Holaaa"
+    },
+    "-KKUPWMH05AlnNpHoglT" : {
+      "author" : "Duck",
+      "content" : "Hola"
+    },
+    "-KKUPYsNGW6Qz9dRbs6l" : {
+      "author" : "Duck",
+      "content" : "Ui soc un patito"
+    },
+    "-KKUcKMrbKiTco0CRRg_" : {
+      "author" : "Quokka",
+      "content" : "Oliiiiiiissssss"
+    },
+    "-KKUcQvqDWHqZPX5ZnvM" : {
+      "author" : "Quokka",
+      "content" : "Oi soy un quokka :3 "
+    },
+    "-KKUchU8HLlMCxkSjpTR" : {
+      "author" : "Pig",
+      "content" : "Ahora soy un pig"
+    },
+    "-KKUci7ikaUZI0yP_bvO" : {
+      "author" : "Pig",
+      "content" : "Ecs"
+    },
+    "-KKUeKDEcevxVUaXvp5a" : {
+      "author" : "Cow",
+      "content" : "Poh muuuuuu bieeen"
+    },
+    "-KKUiVzYW7bq7c5XM4GR" : {
+      "author" : "Pig",
+      "content" : "Jajajaja aixo esta molt bé"
+    },
+    "-KKUugWbyvCyouVQn6Ve" : {
+      "author" : "Dinosaur",
+      "content" : "Jo jo jo soy el mas viejo"
+    },
+    "-KKVLrWdMWdx7apdrNiV" : {
+      "author" : "Elk",
+      "content" : "Elllk"
+    },
+    "-KKVY7jrSBgcfB6GmlHP" : {
+      "author" : "Quokka",
+      "content" : "O"
+    },
+    "-KKVY9jxMmLSE4IuyTha" : {
+      "author" : "Quokka",
+      "content" : "Quooooookkkaaaaaa"
+    },
+    "-KKYOtYYD-rcYUzA6jh5" : {
+      "author" : "Hippo",
+      "content" : "The time is coming"
+    },
+    "-KKYOwhelwfFezq3qODh" : {
+      "author" : "Hippo",
+      "content" : "deQuimero is coming"
+    },
+    "-KKZD4uck0FH_RSa-VZp" : {
+      "author" : "Dog",
+      "content" : "Hola"
+    },
+    "-KKZD6pDrreFjOlN18Qw" : {
+      "author" : "Dog",
+      "content" : "Hola quim"
+    },
+    "-KKZDdmcgcmjTyEX6aF3" : {
+      "author" : "Turtle",
+      "content" : "Olaaaa"
+    },
+    "-KKZDgucBG3RYLLKOpOh" : {
+      "author" : "Turtle",
+      "content" : "Hola quimmm"
+    },
+    "-KKZE0gkiAcldb4z_Mk4" : {
+      "author" : "Monkey",
+      "content" : "Oliii"
+    },
+    "-KKZE63HFi2QfMkuRYBB" : {
+      "author" : "Dolphin",
+      "content" : "Jojoojo! Michell!"
+    },
+    "-KKZEQ_aSUWCE4x_y-hb" : {
+      "author" : "Kangaroo",
+      "content" : "Uliiii"
+    },
+    "-KKZIxR8I3t_l8FZaVk3" : {
+      "author" : "KIM",
+      "content" : "Hola"
+    },
+    "-KKZIyCary-Nf2lD0WNZ" : {
+      "author" : "KIM",
+      "content" : "Oooooooohhhh"
+    },
+    "-KKZIypNYMbAn6DwcROm" : {
+      "author" : "KIM",
+      "content" : "SkdnsnskskskKskks"
+    },
+    "-KKZJ0RAAo8k6mq17xIX" : {
+      "author" : "KIM",
+      "content" : "/animal"
+    },
+    "-KKZJ6y2MTr-3DuIT_C_" : {
+      "author" : "BOSS",
+      "content" : "YEAAAAAAH"
+    },
+    "-KK_l_WPJg3CNjKJlIZS" : {
+      "author" : "Mouse",
+      "content" : "Alaaa"
+    },
+    "-KK_wRK0hy5EI_jIdpOa" : {
+      "author" : "Mouse",
+      "content" : "Szwdsde"
+    },
+    "-KKa2m4Drq5Ib_Yp_bMG" : {
+      "author" : "Elk",
+      "content" : "marblelabs123@gmail.com"
+    },
+    "-KKcuwqg-fGoqBbcbrOX" : {
+      "author" : "BOSS",
+      "content" : "Si mai algu veu aixo, ha estat un plaer compartir aquesta experiencia amb vosaltres"
+    },
+    "-KKcv3HVm1rHqnGthHLc" : {
+      "author" : "BOSS",
+      "content" : "(i ese correo?)"
+    },
+    "-KKcwctLs0dlTYNbn8Jl" : {
+      "author" : "Wolf",
+      "content" : "Ohhhh que bonito"
+    },
+    "-KKcwf1kHi8CUTKUV1t8" : {
+      "author" : "Wolf",
+      "content" : "Yo si que lo he leido"
+    },
+    "-KKdM6khHwOHSV7NQClX" : {
+      "author" : "BOSS",
+      "content" : "Grasias lobo 😍"
+    },
+    "-KKdSJSs_Wh0ZW0wGIyk" : {
+      "author" : "Rabbit",
+      "content" : "US ESTIMO"
+    },
+    "-KKdSMI5FH7lmXRvKfYd" : {
+      "author" : "Rabbit",
+      "content" : "MOLT"
+    },
+    "-KKdSNe_yGbqDEemNNHR" : {
+      "author" : "Rabbit",
+      "content" : "Ha hablado Quim"
+    },
+    "-KKdXDdQ_Xp0JtuMvtIk" : {
+      "author" : "Monkey",
+      "content" : "Ho he llegit"
+    },
+    "-KKdXER_uRKH0o4mDVhN" : {
+      "author" : "Monkey",
+      "content" : "Tk muxo"
+    },
+    "-KKe8NpzKKP-0x6kG9_s" : {
+      "author" : "Rabbit",
+      "content" : "Rabbiiiiittt"
+    },
+    "-KKhOBc9_IQO3cGZ54JM" : {
+      "author" : "Cock",
+      "content" : "Molt top tot eh"
+    },
+    "-KKhRedb7maqBXJJE13c" : {
+      "author" : "Cow",
+      "content" : "M'encanta això"
+    },
+    "-KKhRh0GfFRyDTBMaNeE" : {
+      "author" : "Cow",
+      "content" : "Muuu"
+    },
+    "-KKiyQpC-Aj-p87yQFjN" : {
+      "author" : "Mouse",
+      "content" : "Fkzhk"
+    },
+    "-KKj5EKRHq7hV2HOe9bv" : {
+      "author" : "Cow",
+      "content" : "Ye"
+    },
+    "-KKj5F88jqt6wIgfvvJy" : {
+      "author" : "Cow",
+      "content" : "Muuuuu"
+    },
+    "-KKmTMH4p63bNSs6kFUl" : {
+      "author" : "Elk",
+      "content" : "Wow"
+    },
+    "-KKmTVFyvM6FMwi_8WUj" : {
+      "author" : "Elk",
+      "content" : "Soc la patricia i ballo l'Indie-Hop "
+    },
+    "-KKmT_zIJdP0Vn5wv0O5" : {
+      "author" : "Elk",
+      "content" : "Soc en David i m'agrada tot"
+    },
+    "-KKomhpcl3Y032HM7lKc" : {
+      "author" : "Cat",
+      "content" : "Soc la Maria i tinc una marca de naixament que sembla un morat"
+    },
+    "-KKommIxhTXuMWOzfLDs" : {
+      "author" : "Horse",
+      "content" : "Soc l'Alex i soc un freak del swing"
+    },
+    "-KKomuIKDAcn4r61KzzT" : {
+      "author" : "Crocodile",
+      "content" : "Soc el Victor i la meva paraula preferida es pistacho"
+    },
+    "-KKomxgNx-mYwDN8jDh9" : {
+      "author" : "Sheep",
+      "content" : "Soc l'Albert i m'agrada tocar la guitarra"
+    },
+    "-KKomyquH8dDlj2Kp0ZQ" : {
+      "author" : "Pig",
+      "content" : "Soc la Marta i m'agrada ballar"
+    },
+    "-KKon2-PmENkzWxslqCC" : {
+      "author" : "Quokka",
+      "content" : "Soc el Pere i m'agraden les dones"
+    },
+    "-KKon5c_HOY7rYPj3meQ" : {
+      "author" : "Quokka",
+      "content" : "Soc l'Albert i m'agrada el futbol"
+    },
+    "-KKon99dkpW1dqJEG-Ky" : {
+      "author" : "Dolphin",
+      "content" : "Soc la Joana i m'agreden els animals"
+    },
+    "-KKonEQOYPeOki4ySX5H" : {
+      "author" : "Duck",
+      "content" : "Soc l'Elena i m'agraden els gossos"
+    },
+    "-KKonI9Xxk7659RaCyJU" : {
+      "author" : "Quokka",
+      "content" : "Soc el Yoel i m'agraden els productes ecologics"
+    },
+    "-KKonL3jvJdQRY-DuqkE" : {
+      "author" : "Rabbit",
+      "content" : "Soc en Carles i magrada fer beure a la gent"
+    },
+    "-KKonQjvK4obe6N2-yur" : {
+      "author" : "Dinosaur",
+      "content" : "Soc la Irene i faig enfermeria"
+    },
+    "-KKonmvDBrwXDE5suAkc" : {
+      "author" : "Giraffe",
+      "content" : "Soc l'Octavi i vull veure com en Quim encerta tots al final"
+    },
+    "-KKoo0Wr4lzu4wWBcAF9" : {
+      "author" : "BOSS",
+      "content" : "Soc el Pol i estudio historia tiu"
+    },
+    "-KKoo5ZqONa99OnRLcM2" : {
+      "author" : "Kangaroo",
+      "content" : "Soc la Wai Ling i el meu animal preferit es el koala"
+    },
+    "-KKoo9HVpxy60OYD1ioz" : {
+      "author" : "Dinosaur",
+      "content" : "Soc la Julia i m'agrada cuinar"
+    },
+    "-KKosCEodoPwvfL3E8pE" : {
+      "author" : "Elk",
+      "content" : "Soc an Jordi i magradan als dufins"
+    },
+    "-KKrEVPklgKnD0h-CUyl" : {
+      "author" : "Elephant",
+      "content" : "Soc en Yoel i m'agraden els productes ecologics"
+    },
+    "-KKtEw41yGzy-J0s5ZPd" : {
+      "author" : "KIM",
+      "content" : "Soc en Quim i no m'enrecordo de res"
+    },
+    "-KKtFALiUxxTjIIcB9kT" : {
+      "author" : "Mouse",
+      "content" : "😃😃😃😃😃😃"
+    },
+    "-KKx6aXfkVHEI6lMCoM0" : {
+      "author" : "Cow",
+      "content" : ":^)"
+    },
+    "-KKz-p8TttQvjt4O6EEL" : {
+      "author" : "Pig",
+      "content" : "Im a pig"
+    },
+    "-KKzguqAp3CouZe1DCku" : {
+      "author" : "KIM",
+      "content" : "Ola ke asen"
+    },
+    "-KL6ljoEO10qlNSJxvv4" : {
+      "author" : "Monkey",
+      "content" : "Shdkfd"
+    },
+    "-KLBeGqG8w4frFbvlzMR" : {
+      "author" : "Quokka",
+      "content" : "/BOSS"
+    },
+    "-KLBeM31nsXLjguckof6" : {
+      "author" : "Horse",
+      "content" : "Yeeeeh"
+    },
+    "-KLNinwwpLYpY8MNkt7T" : {
+      "author" : "Sheep",
+      "content" : "Oliiiiii"
+    },
+    "-KLNirfa_qnMagaKz0KF" : {
+      "author" : "Quokka",
+      "content" : "Jejejejehe"
+    },
+    "-KLcq0Tmk5AJCACVpZvp" : {
+      "author" : "Horse",
+      "content" : "Olslsldskndbd"
+    },
+    "-KLwgIbaTOdDVJEA456C" : {
+      "author" : "Frog",
+      "content" : "Hola amics!"
+    },
+    "-KM9pwQrcJCH_vUPimEQ" : {
+      "author" : "Cat",
+      "content" : "Jejejd"
+    },
+    "-KM9pxoo6ZBr23LcpcTi" : {
+      "author" : "Cat",
+      "content" : "Kdkd"
+    },
+    "-KMB3cojSd-DO0I-aM1J" : {
+      "author" : "Duck",
+      "content" : "Wenas locos"
+    },
+    "-KMB3dqrrF3QmJJSatDw" : {
+      "author" : "Duck",
+      "content" : "Hola"
+    },
+    "-KMOFjvkCEKW-sODQcbC" : {
+      "author" : "Panda",
+      "content" : "Jeje"
+    },
+    "-KNM5nh9R_m4kCLlEU76" : {
+      "author" : "Elk",
+      "content" : "Estem al CBSPF! 🙈🙈🙈"
+    },
+    "-KNM5uZpplBnruZoQCsR" : {
+      "author" : "KIM",
+      "content" : "Hola :}"
+    },
+    "-KNSc9VbIfJl2zf3D6Xe" : {
+      "author" : "KIM",
+      "content" : "Holii"
+    },
+    "-KNScJgj4pHNKEkOGe1T" : {
+      "author" : "KIM",
+      "content" : "Jeje"
+    },
+    "-KNScjFoZnUGLEukWwLB" : {
+      "author" : "BOSS",
+      "content" : "Bum"
+    },
+    "-KP9yCqlZMXnQklH9lgw" : {
+      "author" : "KIM",
+      "content" : "/animal"
+    },
+    "-KP9yDZrEVFI2D6QW7dT" : {
+      "author" : "KIM",
+      "content" : "Ups"
+    },
+    "-KPSoiQc1xGUiRTBwet8" : {
+      "author" : "Panda",
+      "content" : "Ola"
+    },
+    "-KPSojZbbWqRQEBEGWOZ" : {
+      "author" : "Panda",
+      "content" : "Soi un pansa"
+    },
+    "-KSriiYr6LIFMJs1Cr1W" : {
+      "author" : "Panda",
+      "content" : "Pansa"
+    },
+    "-KTX5PdA9eq_sd_hyeNZ" : {
+      "author" : "Quokka",
+      "content" : "Helow"
+    },
+    "-KVAhyxawvJPQfgNOn8Y" : {
+      "author" : "Mouse",
+      "content" : "Tequieei"
+    },
+    "-KVAhzw5czs5pf_8K2WE" : {
+      "author" : "Mouse",
+      "content" : "Tequiero"
+    },
+    "-KVAi0ZhBTEpo2lwn7nu" : {
+      "author" : "Mouse",
+      "content" : "Firmado: un kimosan rata"
+    },
+    "-KZcafBIncMAZi8w9mnY" : {
+      "author" : "KIM",
+      "content" : "MCDAGAAAAAAA"
+    },
+    "-KiPpg9EmDPoaHYrGcln" : {
+      "author" : "Horse",
+      "content" : "Hey"
+    },
+    "-KtB8_mS4mMhyL9LmuLd" : {
+      "author" : "Elk",
+      "content" : "Hoka"
+    },
+    "-KtB8deYhsrTeFrCA17z" : {
+      "author" : "Koala",
+      "content" : "I dyx"
+    },
+    "-LfkjSBvkyqrfzZ1Ch2q" : {
+      "author" : "Wolf",
+      "content" : "text"
+    },
+    "-Lfkk_1I22I0cQXuUU2K" : {
+      "author" : "Panda",
+      "content" : "text"
+    }
+  },
   "greetingCards" : {
     "Adria Reales" : {
       "age" : 21,
@@ -18,15 +1208,15 @@
       "age" : 21,
       "author" : "Alba Fletcher",
       "description" : "Estudiante en la Universidad de Barcelona",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/uo4FDBNScqPbOyUqENUZelB6MiJz53BMlJKTGjipkOKv8ULxk_qbzcFwt91RZIT4ZhR8s89WENXpIZK-m2oogy7xM75o_HmwgIEL7NCH0yRjKx_smMXQrLVix4xh3sqTJ5VP6NCh6FhGhL4y6wbPtQU6YfHOp6tukl7L01Urht_IFjkuSswwt0uxoFP8kjUxVH1OytJq7LtOWuVcx9mc56zt8ohSFvZeP0PJgGOyeE2aI-LXw8cudPVPVSEhuj0xWYHQ_VkjbJAFhx148gFHGJJeutyxvyDxlsRS56jSjzcO4IMXTLhx3haiPjPxGOX2SFL4G7QKwDHCrvJ9hXRff9G03qhBxb1BApvoynQBYx6SF0wY3eIRsbeqGDEjgdQJ3DC-6QF7Y_R7Co5u0UZoFizTzFG8An2mLebuWMRrpfO4gyy1X27Taam9QG7eLzkh-ECKEQceonsbAO_jnQ3paz03SAPJvWnBhSvcNJVP9TF2_fT1UgpZcjunJ9E_qwaIRHnsgPdWL6s1SSlQGYNmxYHh6o6glmpKSLarA1uPD0WydRkcSfgDQhwBSRlP4dFsJs_B6gLdXqYVWsRpxbG-IJs8Hbr9Xw8=s540-no",
+      "text" : "KimOOOO!!!!\nMolts anys anys!!! Vols anar al llit amb mi? Les coses clares i la xocolata espesa- tranquil no cal que responguis ara(tatimu jijiji).\nJuntes ja hem viscut un part, una mort,  curts de saw, sexe entre joves sense precaucions, conduccions temeràries per la city, carnestoltes sonats i així una llarga llista, sobretot de festes.\nEl cas txulo, que tens 21 anys ets un home dur, fet i refet! Fa 10 anys que ens coneixem, acabo d'adonar-me, quin numero més curiós, just 10 anys, i aquí seguim.\nEts un kimo limonero molt guai per això et vull al meu canto molt molt de temps!!  Tinc ganes de que arribi el dia que marxem a viure fiesterus a un comuna hipil, a que mola el pla?\nBons 21 petit!!!  Milers de petons d'amor etern!!"
     },
     "Albert Abril" : {
       "age" : 20,
       "author" : "Albert Abril",
       "description" : "Estudiante de la Universidad Autónoma de Barcelona",
       "photoPath" : "",
-      "text" : ""
+      "text" : "I would have followed you my \"confident\", my \"amor\", el meu amic. (BOROMIR, 2016)*\n\nFill de la Júlia, i del senyor calb! El meu germà... Veig en els teus ulls la mateixa por que empetitiria el meu propi cor. Podria arribar el dia en el que el nostre valor decaigués. En el que oblidéssim els nostres àpats i les nostres cerveses romàntics i es trenquessin els llaços de la nostra comunitat fiestera. Però avui no és aquest dia.!En què una hora de VPNP i birres trencades \"lubriquessin\" la consumació de l'edat del nostre matrimoni. Però avui no és aquest dia! En aquest dia lluitarem, ens estimarem i ens violarem! Per tot allò que el nostre cos/cor estima d'aquesta bona relació; et crido a celebrar, a canviar i a conservar!\n\n#QuimMotgerDeLaEncarnación!!"
     },
     "Albert Ripol" : {
       "age" : 20,
@@ -53,8 +1243,8 @@
       "age" : 20,
       "author" : "Anna Arbiol",
       "description" : "Estudiante de audiovisuales",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/eXXWr_Ok7s6R_29tDDeyAqH7sBSin4jik0gwSdjVpcRlMaGdyY5QCS7Kqa4JeOG2M7Tfykr4nsQ0Qi1au_Nxt9EUQ5EC19VRtbLfbTTs_Tx4JYlXBl3IY1JzRLmo0Miz-6L6VvnA0tfCUCbRNeWnjuvvbHAfLo2PdttXBEnr4__0QZRLi-Anuo3Za3mgRQkujobCl0FT0V0JFGEVFEcn4SUJQdmlyL2fmQN6fVw0-IBoAb8llGtPi-Oj85KaWtHulYNAxxtTCsAP2AvAImbeI7ispX7Fv0DNerkgq7l1uPZLI8XHt5gFidC9-dl2ZXTd0S3mjtmGfOU1LG8CqdIav_NA1O3R5g4fTPa_RP0t8aQxofCrsJtGXmwo5MBPIP1JrQ3iirNUeV_QL8Biw3seLKsknQWocCiJ-aFxct6gkCmL5uAY2-yKg4xSCRbf63pu5XdWbPd2keQDj8tChPqnUvse6lrMpnzfm2XkKK4TvCM2xPen5_ByvVihgFuBuk3iMj5Gcaa09Oo63QCegUcB67KDB84JQDTHBSJhBX-PCznYn2cxdWZCNvni9PKsNYHzmku4fghGjlktT0TLPe2ioSbe8fnsxaU=w799-h599-no",
+      "text" : "Encarna!! Feliiços 21!!!!\nSembla mentida que aquest avedger que per mi era un desconeguut innocent que es creia totes les meves bromes ja sigui tan vell! Jajajaj La de coses que vam viure en un any!😢 He de dir que m'alegro molt que l'univers ens hagi permès ser amics (i tenir unes converses super  filosòfiques😂).\nEt desitjo el millor per aquesta nova etapa tot i que ja sé que t'anirà sempre tot genial perquè ho vius tot amb molta il•lusió, molt teatre, molt cine i molta música, com ha de ser!! Que mai faltin!❤️\nFeliicitats Quim!"
     },
     "Carla Ochoa" : {
       "age" : 21,
@@ -67,15 +1257,15 @@
       "age" : 20,
       "author" : "Carles Angel",
       "description" : "Estudiante de Blanquerna, Ramón Llull",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/mIWeuLVXdthrkPZT_TLdrM-lav6mCt7X-MyDjGP_3bW-LnNPkVjVdXPBjtFwdOfX3Vvm5Tbk_Yt5nz_7vbUNhL4JyRT8nWgBzqlOk_YNvq6zVFplyezD4uiGiLCK625trF7D4eUNYqWpwgXMsnDR9_NIFzuy0HdQe8sHo1T58WbBpdO_ShbFQjQiM0DB7aUGVT5-6m2qNI0rq3i1UNblVZuY66CDVf_qL5AcAKkKpwUuFwLcWeFUb9r0du_Hqqy4T2YFrTHeyX76bB-LK-Um20H4TJEw5SWibw0X84FxF6uoRVWr2OgSm9xQgootLfB4H4D_Svzjji8VvXbS5AbOWBUv5eXvq7Xz-TZgtd_Pc4DPxXA5dVeT3ea0fj9dzfg6KFiRSDokLpA0G4wE_0j_lk0skJgp6_0awJawSavxOinuLMAfML76goabes5WWgl_OkScuKKwZfJMiPl2w7K7px8vh9i0u836Gs-KNqXazoczusvAWx1UIf52Cq445FHvfUh3Fi9EkKTseaLY55N7vnTqh8MYbpmlsOHtKIsPNJT9JuOYa7-R-Mb27eK-KRPYC0gCE9p_TQ6R7unlFAEl-tm3iKTNoCA=w428-h573-no",
+      "text" : "Recordo quan ens vam veure per primer cop, jo només era el noi que duia les begudes, tu estaves brillant sota el sol de febrer amb aquell vestit de flors que tant m'agrada. Si mai m'haguessis apuntat amb la pistola amb aquell moment no ens hauriem conegut, com voldries que jo... un senzill president deL Consell Intergalactic de la Nebulosa- Epsilon es veies capacitat de trencar el gel cap a tu?\nRecordo la frase que em vas dir a la nostra primera cita... “Lo mejor de las maduras, es que puedes comerles el roscón de reyes, mientras te tienen al fuego unas lentejas de puta madre. Yo recuerdo una que conocí en un eroski, y la recuerdo como uno de los mejores polvos de mi vida. Ella me hizo unos callos cojonudisisimos, y mientras los preparaba, yo le daba como un cabrón por el ojete, ya que se había puesto faldita para que fuese haciendo mientras cocinaba. Creo que eyaculé tal cantidad de esperma, que estuve dos horas inconsciente. Menos mal que los callos me dieron fuerza para acabar el día con un par más. Y tenía unos hijos majísimos. Menudos vicios echamos al crash bandicoot 2”. Com oblidar-la, em va marcar per sempre, la vaig tenir en ment cada minut que passavem junts. Cada passeig sota els cirerers en flor de te casa, cada vetllada al cinema del barri, cada atracament a mà armada a la guarderia del poble... Fins i tot la vaig tenir en ment quan va arribar la guerra i vaig haber de marxar al Vietnam a lluitar contra els estruços devora ronyons de Cambridge.\nCom habia de saber que mentre em jugava la vida al Guadalquivir, tu duies el nostre prepuci no nat a la panxa, recordo al tren de tornada els nervis, esperar veure't a la estació, però no eres allà, vaig correr cap a te casa, atravessant els cirerers, però no eres allà, fins i tot vaig anar a la sala de fumadors d'opi que tants bons moments ens duia a la ment, però tampoc eres allà...\nSiguis on siguis espero que aquest escrit veritablement t'arribi per a recordar-te que encara soc aquí esperant, i encara em deus 20 euros de l'ultima comanda, a veure si et creus que aquesta merda es barata nano!\nAmb molt laf - Calser"
     },
     "Cristina Lou" : {
       "age" : 21,
       "author" : "Cristina Lou",
       "description" : "Estudiante de doble titulación en Derecho y Business Management and Administration en Universidad Pompeu Fabra",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/86hJmAs48uvo3j8LObtBpinTHUUOj1Fc4STFP9g16M32wu2zlfuwJrTJgNksjqlVM2rxXysiXczl_2p8WzPVTEwV_ehY5xe7oGujywpJTZR6JI9WX-Zw2sud_HQVNiPv1MkN249udzgziZJ9rTwm10yQ2j-CUnqlRwU2uu1iHJvUS1g2ux6YWzwewoqjEyXSNI8QTBAcikPjY83LBAjbXO46_sRAV0GGNFxRmcjDSxv05LB4cDOenm5PQIGr90hnt_2XHpxbaProoIszbIaDMtVdQKt9JOLpG9s9nAbMx32L_lm7fgJDbX3eLcTC-HE80ZqIpIHVsQyB64ezrgQ--ejZRmV1_hNIRrUFU3awGPo0135wu5JWKHguXT050BtLEFZNFh8EpexeI6cVaK1_08jgbm28zCVcXl1aktqCFCcrKJ8m3_oaY9FPtLZ1J0TwO_KM6q0D43hs4f0Slz9AaBgJbHya7Mlh5dkQllH0f63kkNXMP_xxdmlN6mFu9fjlJS1aFCcPVtm21I2vEqb_BwAYCCxp1ZFdR0DQfJLw4sqIpDK57F_3Esz6KVzk-h2kipHAqJL8TMgrexV_0B4Jf01vTrs1fhw=w852-h639-no",
+      "text" : "La veritat és que vaig tenir molta sort que vinguessis en realitat per \"substituir\" a un altre amic, després de donar tota la volta sencera a la Plaça d'Osca, fer entrar a la María a un bar encabezando la tropa i dir \"ui nono aquest bar no\", sortir i ella morir-se de vergonya.\nFinalment ens asseiem i entren les preguntes acusadores a la sala del interrogatorio!\nMOLTA MOLTA SORT d'haver-te conegut, de no sentir barreres quan parlem i poder entendre'ns tan bé!\nD'anar a casa el Quim i adonar-nos tots que apa s'han fet les 2! Que jo sé que el Quim, tant bohemi i tan aparenment enginyer, és un grandíssim home i és com si ho hagués sabut des de sempre☺️\nAi KIMI, mi hombretón!❤️‍\nHahaha"
     },
     "David Aleu" : {
       "age" : 20,
@@ -95,57 +1285,57 @@
       "age" : 21,
       "author" : "Elena Ruiz",
       "description" : "Estudiante de Ingeniería Informática",
-      "photoPath" : "",
-      "text" : "En proceso..."
+      "photoPath" : "https://lh3.googleusercontent.com/5ocuDRKq5U_Xalsa0QDYWpjdzMyqv4EKgxlANmMAWOyTlAjc_Re3c5sY3GBTuFATY9qyGhfjN71uln4a2zXxFWCrNmd-oq8z6PpsYPOX_xRFkovOJfaYWvobDhOw27UuCnMQSehOJK483kpbhBmoyn3cDGPngjxSvBs8CbVhes5lCRjZi4btsH7X00LWRoai9HFK2AC_2myGXeHrrcmm84j_qpyckHyFMqb3alF8IOlD_erqe6SXj8IdojSXbvoYRlstBFCLXMmhrzqKhhoQtT0sKNPiwZfPrNPpNYx8zbOlkG_q04-6vZppUhag2yKzCHfuMD9EutFiJEREjzi9MWm5_mdLFBKZ7OMaEm484wn-VETLvRxtv9_Byqps8MsWxBewHTRmgh2gXSjLRRAkS0ejzLrjiN3F-I2l56jpLfNHYFDHulwToj72iB5eoeiO95LPxhYp4peYdydhsn-jTjl4JbS9o0jjCkOWWhWEEvLQ-pFXkD_pZglL2DnCYhKtt7rXHNEctReLfgbvqi2-j-aHAy5CnRgozziGmgvbE-4LHCkYdO6PUfQEtZlVwUhE8fkogVIyOpiK70XtVSrOjMiRB7Kc3Zc=w361-h641-no",
+      "text" : "Quuiiiiiiiiiiim!\n21 anyets ja! Com ja has vist, el teu regal no ha sigut un bitllet d'avió a EEUU per poder beure totes les cerveses que vulguis ja legalment. Però tranquil, que amb la festa que has preparat avui de ben segur que el viatge ja te l'inventaràs sense avisar. 😶\n\nDit això, sempre m'agrada fer la mateixa reflexió quan un compleix anys, lo important no son els anys que sumis si no els que deixes passar. I n'estic convençuda que els hauràs aprofitat molt bé, almenys pel que he conegut de tu durant aquests 3 anys. He vist que ets una persona que és feliç amb poc però que dona tot el que pot per la felicitat dels demés. Ja és pot veure simplement tant amb els teus dots organitzatius, com l'atenció que li dones a cada noia del Tinder 🙉 Tot i així espero que continuis amb el teu estil de vida ja que dona enveja i tot!\n\nAixí que moltisisisisisismes felicitats de la de Badalona, la que te focka, la que te parte la boca (D'arrels colomenques) i que disfrutis mooolt avui!\n\nFinalment, jo no et faré cap poema ni et versionare cap cançó, però t'he preparat algo millor! Espero que t'agradi i dale al LIKE👍\n\nPD: Aprofito que estem en campanya electoral per avisar-te que no votis al PSOE sino t'arrepentiras!"
     },
     "Gabriel Pujol" : {
       "age" : 21,
       "author" : "Gabriel Pujol",
       "description" : "Estudiante de Ingeniería Informática",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Kimo, Quim, Fimo o com t'agradi mes: Et conec desde fa 4 o 5 anys i, malgrat que no hem compartit tants moments com amb altres del grup, et conec suficient com per saber que ets un tío de puta mare. T'encanta organitzar coses encara que la gent no sempre fa follow, sempre tens una forma de donar la teva opinio sense trepitjar la dels altres (cof cof discusions politiques adri & Cía cof cof), i sempre ho dones tot en tot el que fas. Encara no sé a quines \"fases d'en Quim de festa\" us referieu pero espero descobrir-ho aquest cap de setmana 😉\n\nEn resum, felicitats pels 21 i celebrem-ho \"por todo lo alto\"! Love ya, Fanri.\n(Filicitits pils vintií)"
     },
     "Gerard Casas" : {
       "age" : 21,
       "author" : "Gerard Casas",
       "description" : "Becario en inLab",
       "photoPath" : "",
-      "text" : ""
+      "text" : "ENCARNAAA? ENCARNAA? ENCARNA DE NOCHE? Que tengo dos empanadillas haciendo la mili en Mostoles!\n\n  Que puc dir? Es dificil expressar-se per fer una felicitació a l'altura del deQUIMeró... Pero s'intentarà! \n\n  * INTRO MUSICA DE ANUNCI DE ESTRELLA DAMN*\n\n  Que qui és el QUIM? El QUIMOH  és un politic, un cuiner, un Casanovas, un cervecero, un actor, un peter pan, un filosof, un fiestero, un risottero, un organitzador metodic nat, un viatger que fuig (fase 3), un ralph (CORRE PLATANO), pero sobretot un fantastic amic i una gran gran persona.\n\n  Sembla mentida que hagin passat 3 anys desde que ens vam coneixer. Encara recordo la primera vegada que varem sortir tots, al Sant Hilari vas patir el que més. Que tiempos, eramos jovenes e inexpertos. I desde llavors han passat moltissimes coses: \n Mojitos, cervesa, tequila del Teniente, Nasty, Bebida, FestaFIB, Encarnitas, Cervesa, Difusores, Carnaval de SantCeloni, Telecofarras (x2), VERSE, Cardedeu (x2), ball d'aparellament de canis, Spotify Premium, uSPOT, Firebase,AVED, Cervesa, ModernNet,CERVESA, Rissotto, Andorra, platja, Telecogrescas, Cyanide and Happinness, MÉS CERVESA, braves, MOLTA MÉS CERVESA i altres com clases i treballs de ER. \n\n  Realment crec la uni no hauria sigut ni de bon tros el mateix sense tu. Sempre has sigut un amic amb qui confiar i t'ho agraeixo de tot cor. Has sigut una mala/bona influencia per ferme cada cop més cervecero i per acabar Telecofarras amb una ressaca de campionat.\n\n  Enfi, que més puc dir que no s'hagi dit ja? \n\n  PON UNA ENCARNA EN TU VIDA!\n\n  MOLTES FELICITATS QUIM! DISFRUTA MOLTISSIM DELS 21! BEU MOLTA CERVESA I MOHITZOS (ARA TAMBÉ ALS MILLORS PUBS DE USA) I A DISFRUTAR DEL DEQUIMERÓ! I PER MOLT SEXE, QUE EL SEXE ES VIDA!\n\n   PD: La llista aquella era inicialment una llista curta, al final s'ha convertit en un monstruo. PD2: Pensaves que no posaria res del sexe ehh?"
     },
     "Irene Sole" : {
       "age" : 21,
       "author" : "Irene Sole",
       "description" : "Estudiante de la Universidad Autónoma de Barcelona",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Eii Kimo moltíssimes felicitats!!\nQui hauria dit a Menorca després de 3 anys que estaria celebrant els teus 21 anys en un pepino de masia? Com passa el temps mare meva... Espero que gaudeixis moltíssim de la teva ja oficial edat adulta i que no t’haguem d’arrossegar del terra aquesta nit siusplau.\nFeliços 21 Quim!"
     },
     "Joana Marti" : {
       "age" : 20,
       "author" : "Joana Marti",
       "description" : "Estudiante de la Universidad Autónoma de Barcelona",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/lbCQ0_dVtRwA0Em3x-MFyee_8gx7VqENrN_ofjK-g7sTb0RXKF6AYHT0MTfxnawbav0qNUwbUdR8mAvLfKRYkSDqGkG4a7n-TOBXUdZLZinpTah6eSRAjekX2v7GE3o2gU60HcXOPtyO7G2-LVO0VMHmtJoaUCHhOs7SOv4jHxgk_Q7UKhIuy3UkOH3mTbTAIVslDHpScCNtQslxmXBqxj4efz-zHnuWs7qaxoRNomwh8ujKz4kZNzOxxF78hPNFgQON-eioUUhZBOuLVR-TpAAToBpJeJapIi2OEICfBMgpV4q0L_uklNJW3PpCoY4PYJb4P7iVGozKyEwf9H6VFx_wiEgcT-35WZA-2ZbxEtN1C5bhy3B3KWJFVPzpWN8Z6eIgoi0WxouSRE7Qj2UTkqQ7rCRAAoGOrhRBwLMxtIF9tWTy-Ab_XPgbBrtsiP-0h51kHeriv0IWN08j28vaanYImGEm3fGdrvpv6-RV42jsg1XputtdnZ2D9pELvt7JSWB-ANtbygbHhuXgbqv6F3BaWrOEu9ycWgYz1wqaUEqkwely9D9mLzt4sWf8g0lLKy9_7E4zGoQrbY-oZqylP_b5p1ajTGw=w274-h206-no",
+      "text" : "Com sempre diu la Júlia, que maco és que la nostra amistat de besinos seguexi despres de tan de temps. I encara que ens en riem d'ella, te molta raó, tenim molta sort d'haver-nos trobat i que despres de tres anys seguim estimant-nos tant.\nMoltes felicitats boliiinga i espero que segueixis sent molt feliç i les santcugatenques poguem seguir al teu costat durant molts anys."
     },
     "Jordi Corominas" : {
       "age" : 21,
       "author" : "Jordi Corominas",
       "description" : "Estudiante de Publicidad y Relaciones Publicas en Universidad de Girona",
       "photoPath" : "",
-      "text" : ""
+      "text" : "No et sabria dir quan va ser la primera vegada que ens vam veure, ni com ens van presentar. El que sí sé és que al cap de molt poc temps, ja estàvem compartint birres al Ceres, desafiant la legalitat.\n\nAmb el temps, el llúpol i la malta que el meu cos ha anat absorbint al teu cantó ha anat florint i desenvolupant un sentiment cada vegada més fort cap a la teva persona (sí homo) cosa que fa que cada dia et fimi-estimi més.\n\nSón molts moments, birres, apalanques, festes i debats polítics per Whatsapp intentant fer entrar a l'Adri en raó (òbviament, sense aconseguir-ho). És per això que desitjo que tot continuï com sempre i que continuem compartint tants moments com fins ara (i, a poder ser, milions més). Així doncs, un pre-brindis per tots els que hem viscut, i un brindis per tots els que encara ens queden per endavant.\n\nT'estimo (gens, però gens gens hetero). Per molts anys!"
     },
     "Julia Bendle" : {
       "age" : 19,
       "author" : "Julia Bendle",
       "description" : "Estudiante de Ciencias Culinarias y Gastronomicas",
       "photoPath" : "https://lh3.googleusercontent.com/7tvKlp6MDTkFR6iBMUTNNwZtwrlj3Jnklun2OlPwOfG-bFG6qXx4l1yHhrtC27UhMX6g3YQrc_k4YzoCAN5tdes5E8JDdMUs0jMM8-ZY0SYiMJpH3lp0EC7NM6oGNym9J2yn0hooXZE0m4cLgXVVCrDhTLkZE6tdvt0qQ4fOhvaLgY3si0DCrwvseFExrzU__l9kQSgfLlGseF0r5QWJh8g-HDeu0ftwsa_EM95apDbbX23dPxTW8ZfyzKe6z3nsYk4vHGc2bbIdoKay-itdeYpbkPogfBiTpiCfHwVdFOERKFPdgTAIVbP4Srgz-3qiWHPtbWvK3GGYSf2xhoKW-XlnCV6Cw0kawH8yHV92JjKVH5-NMWKn9IaAekDgEeIYWqVynmlKXqSCxFbIRW9S2iiLW_e9Ar90-bhq3hTItgOlaM98E21ZbTagu9HqNWa6fDITwtr1jUDLL1Uaq5ZCQJmBbLA_eRoFRSHBzp6aHmC9ZKEF-5sZss1LEnSDSx8TV3vusxJQs3mlQZv6ZHbRENIrmxRGafuQ1bcvSHMGY3WMaa4uXXBXr5OcUOHk7NX7QRKKC8DaNUFwZfMZSlfyCv6ESPThEDo=w1080-h607-no",
-      "text" : ""
+      "text" : "Avui va per una de les persones més divertides que he conegut, per al que li encanta emprendre nous viatges als Nasty Mondays de la Sala Apol·lo, per una persona que encara que la conegui de fa poc sé que val molt!\nAvui va per tu, Quim, moltíssimes felicitats!"
     },
     "Julia Sanchez" : {
-      "age" : 21,
+      "age" : 20,
       "author" : "Julia Sanchez",
       "description" : "Estudiante de la Universidad Autónoma de Barcelona",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/lWjI9tOe1TmyqXRLpAkJdm9NcPNq0NTUwXxFix6eYO2kyouRFmk9AFQihPjYUa3EdWtAOL3Y6-_dKAFxCMea7SEx_ndkk1zSVruv4IchVQRVIO5ISkFP7-LQ6Y9NU1PGYnI4dM570QCkcMgX7mpD4KW1TF1kvetnEsS8OABgNOP1VDepZqFWmD8C4j4OXMd-lXqIGISdFQAOMORfY9bC-mQbbheFNIvD7cSVB173I51_QQ-m1Aq5cr7jIlbPZ7NIIeo9q10M5oA2Uv-4MnenFs_IZKSmP0kMBm1PFWocB4OR1yoB3u_azdYxoLy8T-9yeidwvUHswWLaLjVagmRYW7oI-d25B6AP4beWVrezJvHIvR1yQH6NBaM1nHRkikNnxDflG-M-EgYkZx-8VpOHF_MuU2RFHMZDiBlytyMdT6k5sPdOeUDFmfFOBYPtbnHwLOxguID7wVY_wkVg8aLJMvJnJ4Q1tn-UylQI0kyHKEUeb8-C02dpmEgV9480lICyexKVoEQ-THRVyB2fpk5UilcGlF4Ug00LamVPYqiIkBPFVCN9w523iHWHRdmXuMCaVy_vI2iaT5PhOdOl5qbaavI8AQZH7mw=w960-h540-no",
+      "text" : "Quimooooooo!!! Ja tens 21 anys, deu meu que vell! Decidint quina foto posar el nostre amic facebook m'ha dit que som amics des del juny de 2013, fa ja 3 aaaaanys!! I des de llavors hem compartit riures, bromes, festes, festes i moooltes festes!\nNomes dir-te que m'alegro molt d'haver trobat pel camí a una persona com tu i que tot i que se que no ens veiem gaire espero que sàpigues que em tens pel que necessitis, sempre!\nEspero que quan estiguis llegint això somriguis d'orella a orella i sinó... el sexe oral dóna vida! Ho recordes?\nT'ESTIMO MOLT Quimo!"
     },
     "Maria Gil" : {
       "age" : 21,
@@ -159,28 +1349,28 @@
       "author" : "Marta LG",
       "description" : "Estudiante de Empresa Internacional en Universidad de Barcelona",
       "photoPath" : "https://lh3.googleusercontent.com/Clq1anfHGUpWBdiPOaMv7vDAjOpJFjFRDRPy6vUYR3QKEdWNzAiBtLoK7vUxx05QCRRZJtQ_3AlJbc22He7xVPdYkN84_suxzPlOncSQL8EY_P8cf3rYuG-t7d7MwpiEzOb-D2IZdDjjTNnEzi7wAza1BAvsWF-FB3Gd2F3BbS7O0_vgYSSvixotH6v5HYjassD_BCSWlMYsiFuOYYJ_UC8nMCUE-bs_byTJmt24R1N1AI1LCpUy294FfVIoXAa2rkJsCvfGLFoL81dofVy7-MbW08ifwflM-A1xA9diKe3ZAzGkeNlOlfk50FfX_pPjPHj0pZDxWtTtWbhyR-2E9yvORQTt7YT2YzgfNgmewVZS0rH-RHQAtGtTgF_RXUXg32hskMYIbJAflOyFm4ggw7-M_vZItull11f46VNPu0yEN0w9OQRB7cwEp4XYepBa4cXaA-bwTZzqt9LjeEqxA8s1YuRNjlvNxJq4onqS6AyHLKjWRd8f15SAXBD3VIQGdjxLmPtIBzp04oufak1H-PhpwQ2sestX2oeHdKf9zNYYZY0wyBArclRH839fxkE3X4ll0zT5ujn-gTUV8RQ6OM6NAXMdGUQ=w717-h539-no",
-      "text" : "Moltes felicitats Quim! Desitjo que sigui un bon any ple d'exits. De moment farem que s'inaguri de la millor manera possible aquesta nit!!"
+      "text" : "Moltes felicitats Quim! Desitjo que sigui un bon any ple d'exits. De moment farem que s'inaguri de la millor manera possible aquesta nit!!\nPd. La foto del mitic viatge a Crackovia quan erem joves, nit pre Auschwitz que mai oblidarem ahahh"
     },
     "Octavi Pascual" : {
       "age" : 21,
       "author" : "Octavi Pascual",
       "description" : "Becario en HP",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Quim ets tan genial que qualsevol dedicatòria al teu costat és banal (bueno menys la del Pere, la de l'Albert... deixem-ho estar, fer-la em fa pal)"
     },
     "Oscar Mañas" : {
       "age" : 21,
       "author" : "Oscar Mañas",
       "description" : "Estudiante de Ingeniería Informática",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Tu i jo hem sopat en bons restaurants,\ntu i jo hem ballat a la llum d'un fanal,\ntu i jo volàvem en un Kia Shuma blau,\ntu i jo hem cantat a la vora del foc.\n\nTu i jo hem buscat coses similars,\ntu i jo hem tingut el cap ple de pardals,\ntu i jo dalt de la nòria,\ntu i jo i la nostra història,\nperò sempre ens quedaran les braves del bar.\n\nEl bar! El bar!\n\nBenvingut a la majoria d'edat americana!"
     },
     "Patricia Sampedro" : {
       "age" : 20,
       "author" : "Patricia Sampedro",
       "description" : "Estudiante de Ingeniería Informática",
       "photoPath" : "",
-      "text" : "Sembla mentida, que ja hagin passat quasi tres anys des d'aquell primer dia d'universitat, que per coses de la vida vam coincidir a la mateixa classe!\nEncara recordo, el primer dia que vam quedar els \"Fibers del passadís\" amb les històries de l'Aleu (que mai poden faltar\uD83D\uDE09), la primera telecofarra... I recordes el vici que vaig tenir (per culpa d'algú ehem ehem ) amb Homeland?\nDoncs això, que tot i que en l'últim any no haguem parlat amb excés (això de fer caixetes no és bó\uD83D\uDE0B) vull que continuem tenim debats de política i de sèries!\nAixí que espero que aquests 21 anys et facin més sabi i t'adonis de què Breaking Bad no és una bona serie!\nMoltes felicitats!!"
+      "text" : "Sembla mentida, que ja hagin passat quasi tres anys des d'aquell primer dia d'universitat, que per coses de la vida vam coincidir a la mateixa classe!\nEncara recordo, el primer dia que vam quedar els \"Fibers del passadís\" amb les històries de l'Aleu (que mai poden faltar😉), la primera telecofarra... I recordes el vici que vaig tenir (per culpa d'algú ehem ehem ) amb Homeland?\nDoncs això, que tot i que en l'últim any no haguem parlat amb excés (això de fer caixetes no és bó😋) vull que continuem tenim debats de política i de sèries!\nAixí que espero que aquests 21 anys et facin més sabi i t'adonis de què Breaking Bad no és una bona serie!\nMoltes felicitats!!"
     },
     "Pere Berge" : {
       "age" : 22,
@@ -194,21 +1384,21 @@
       "author" : "Pol Albanell",
       "description" : "Estudiante de Historia",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Ei Fimi! Ja fa molt de tems que ens coneixem i la veritat, ets un pavo genial. Cada persona te les seves virtuts i els seus defectes però mai oblidare les gran turques que t he vist ni els grans moments en sortides com menorca i el delta de l ebre!\nHaig de reconeixer que la teva millor virtut és el gran afany d' organització i de oferir-te voluntari per organitzar les coses, considero que sense això no fariem la mitat hahaha.\nPer l altre vanda ja saps que et dire, el teu defecte espantós i nazi es clarament i sincerament el teu socialisme... aiii aquesta visio tant sociata que tens ahhahah.\nNo obstant espero seguir disfrutant de la teva companyia al llarg dels molts anys que ens queden de festetes i sortides i sobretot les mitiques cerveses a casa teva, casa en carles o casa l albert.\nEn fi, que ja em faig pesat, recorda que sempre tens un amic en mi que sap com ets i que t estima.\nMoltes felicitats!!!"
     },
     "Raquel Rodriguez" : {
       "age" : 20,
       "author" : "Raquel Rodriguez",
       "description" : "Estudiante de Educación Infantil",
       "photoPath" : "",
-      "text" : ""
+      "text" : "Moltes felicitats quim! Espero que gaudeixis molt del teu dia i que no hi hagi morts aquest finde haha I felicitats tambe per la paciencia que tens organitzant coses com aquesta, o L'EBRE, aconseguint que els drames fossin menys drames. Per fer-me costat i ser un gran amic.\nUna gran abraçada i ara es el teu moment, procurarem no trencar res!"
     },
     "Ula Montane" : {
       "age" : 21,
       "author" : "Ula Montane",
       "description" : "Estudiante de la Universidad de Girona",
-      "photoPath" : "",
-      "text" : ""
+      "photoPath" : "https://lh3.googleusercontent.com/V690Tchxf940IJyZAx6nqW_i5jmMqgnVDV1AMLOTQlcNQIUlOUJkI0Qhrt57vkcKhIWSxXiY2u7B0JmOOHZTYMU9y_nyruKZr8cDmmQs01BBY7vOyhP41ZOUTf0AYEE28foCpObMZQDmGuRAa5shhuuJ_NPvJkzCulzUDLBw9uwQg0xLCdM-SuqzHIUOy041t_kHOt6EHf5pTi8zSH0C3bXWcJvfJpB9A3QFr1gTlp7sQ1rwwQ181LmdvE4RDs2f1o7hJPvxpBGQL9HCnGm8cWOha6Ph5DEoaElae8nlkdtHS8xLrhwEpubI1wdjo-T3gmwhf4P323V9RZXU26l2qgxlgRb12IUKvepnMuo9hrZVuVpVmaS87onPFDzdhfQTOpOw8je0TfnH9Y_a9qOjQwgmpqbU7DBkmEiU5LzISFADeS_9bcJjlVyosHkEodvP7M4Mux22cYAwd0_gnhcuEmshXC-_tgiYzaIV4Vns__c0jeeQGJkx_FkTA0He2C30FiXiTTLPPRS1lvNDJPqz9xQVYhkssFw-mnniCn_hzYl2ULfSCNsYtNCkAA4oOVpdMPzoacCQVdlYg4akvz0HZnuM1AkwaqQ=w480-h640-no",
+      "text" : "Saps qui et desitja un molt bon aniversari? I no, aquest cop no és la teva mare"
     },
     "Victor Perez" : {
       "age" : 20,
@@ -222,13 +1412,13 @@
       "author" : "Wai Ling Tam",
       "description" : "Estudiante en Ingeniería Informática",
       "photoPath" : "https://lh3.googleusercontent.com/mhG3QBiIk3NjCVJY5Sh0yxAqeymSRcUyUspjylWG13GmtHMJ3EXkp_vyPyw-QMtncUTfXWiqGQACkuvteAldK5APXgNhxnzxUP4x5gG0KgNF3FcDaPa-KjjNCncg7gkHVeGHvzSUT6W6DxIEMjk51z0RuUbg56SuXm_0-LlHM5yB0fBsjTITU5LygOiTfAaX8ceRYY4ZxWxE8acPZSCs9T52F8wx7swNUzUI_HtprQefg3y7JGGrzKxwPwZbWxndL0QVCG_NelnhSyaI8vhN8MFJyaPS0-YmcG9ovJLqoAMUPxq0x2MmESarqEvsXl_wWIVOhmXds1euZ4Lz-FogJcfMavcunpJ-ZS-O64WaCOqHAfn-GcMRamY7wupnfcXlt-0f9wv3q46kI4kEsf20XObIPkKkyhmGok5sZPIBtNQUvsH4rsaMlZxm2N8oSx0WqWwW53DZ4azx68l4uGXjDz46TlcdBn3Dc_XrMZa85Jps8sDecEj4zCLvgGxfRikjA4kim0L9IB45NfHfGP40R-P3xSIsnwiR0JL8hG0ysrY6-F3Y4AID9_wSkpH2Nnab0-rt4RiGW3E5Uq5mcETFkKjhYpMnRyw=w962-h641-no",
-      "text" : "Em vaig deixar enganyar amb un \"Vine, som bona gent!\" d’en Gerard en un dia (possiblement) assolellat de febrer. Sempre és culpa d’en Gerard! Però s’ha de reconèixer que aquesta vegada ha sigut una bona. I aquí estic, at the one and only DeQUIMeró!\nQui diria que al meu últim quadri de la carrera encara tindria la oportunitat de conèixer a un grup de bons minyons com vosaltres? hahaha\nJa sé que el meu missatge va una mica dirigit a tots… but why not?! I per últim, jo crec que has sigut el millor scrum master a PES, però shhht, que quedi entre tu i jo eh\uD83D\uDE09\nEt desitjo un happy happy 21 Quimet!"
+      "text" : "Em vaig deixar enganyar amb un \"Vine, som bona gent!\" d’en Gerard en un dia (possiblement) assolellat de febrer. Sempre és culpa d’en Gerard! Però s’ha de reconèixer que aquesta vegada ha sigut una bona. I aquí estic, at the one and only DeQUIMeró!\nQui diria que al meu últim quadri de la carrera encara tindria la oportunitat de conèixer a un grup de bons minyons com vosaltres? hahaha\nJa sé que el meu missatge va una mica dirigit a tots… but why not?! I per últim, jo crec que has sigut el millor scrum master a PES, però shhht, que quedi entre tu i jo eh😉\nEt desitjo un happy happy 21 Quimet!"
     },
     "Yoel Cabo" : {
       "age" : 20,
       "author" : "Yoel Cabo",
       "description" : "Becario en inLab",
-      "photoPath" : "",
+      "photoPath" : "https://lh3.googleusercontent.com/i1cSDefIjYwcV_Rht7rvmGm8rKQKaFlDhMsP0Xek6w4HusceHQk-qH3csfYfI4jZlpmFTHa9Npn_-I3O-BferSrOpU5wmJU9gEHv-ks2APWsqNLB6noJ3g0G7ClJvzMW39NdZoFScuqJYIwxkbvOooNh11Nmw9DaUDXkAgs9URUhGQmfS1b-IazRpS7n0ZTN_8BQM6rotoeKWOVR0QrJY5I8Ir1ME93FpK4Q_0tZ5fmz64ZgEWs_XktSs95_nEk9BpQwBB_8HcGMQA35Q94J_0_xRYKleq5mb7oL08IGUm2D0sHpxU3CUrL9BBQ4kGMz9L3lpWA-RXaSvCo6hGywUMYJVbSOOPtMFHV7p239UKbtE0E4P8vt8c6dC-LYw1sxLXnOcr-TguaQhXgHDPOBSxp2XU4V9KiCZQGCCYbm_cTT8pSpYHX0ZxQgh0uoYy-WcMsdXYEWa87mIEc-668-NmQzMBnYw2_Q5ESUNIMkPnrEMD5Ee3fGU-UFZY-GxtRxfM9-9zYL-5sq6Y3JiUqI_6ERCxnt2ENd-LwWGtJI5yG7OEIDwVENooeDgvWRc7ePBpa3sPyeI_DAFH5RzcbXrfIQuBPKAxc=w720-h480-no",
       "text" : "A un gentilhòmen que un bon dia vaig conéixer a la FIB.\n\nAmic Quim, com ja saps ets un gran Delegat i per això sempre tindràs el meu vot. Però crec que se't queda petit, ara toca saltar a l'escena nacional.\nPenso que les experiències que hem viscut aquests anys ens habiliten per a formar un nou partit.\nEs per això que he decidit obsequiar-te amb part del mailing electoral de la nostra futura candidatura, enumerant 7 raons per les que votar el PQuim i aprofitant per recordar, així, algunes de les nostres vivències més destacades.\n\n1. Capacitat per liderar el poble i articular la maquinària del partit en qualsevol situació:\nCom el dia en que geniusment (i molt borratxos) vam decidir que faríem el sopar de gala.\n\n2. Màxima Transparència:\nLa vam demostrar amb el mític JoMaiMai mano a mano en Pere, tu i jo (i els demès, ohh Judith..), amb una taja descomunal.\n\n3. Experiència en la lluita contra el terrorisme:\nMúltiples batalles lliurades contra el grup conformista radical 'averestudiao' ens avalen. A destacar especialment el moment AC.\n\n4. Capacitat de debatir:\nPortem anys debatint a la seu del partit, a la que anomenem carinyosament \"Bar de la FIB\".\n\n5. Fortalesa financera:\nVERSE\n\n6. Compromís per la igualtat entre homes i dones:\nAmb anys de lluita per la paritat a la FIB a les nostres espatlles.\n\n7. Nova Política:\nMai més l'eix esquerra-dreta definirà el mapa polític d'aquest país. Amb la nostra arribada, situarem un nou eix, ebri-sobri.\n\nTambé un parell de projectes a llarg termini:\n- Duur en Bertín Osborne a la propera festaFIB, així demostrem que sabem cuinar (no com la resta de líders polítics) i li ensenyem al país a què ens referim amb el nou eix ebri-sobri.\n- Muntar un bar a la muntanya (per blanquejar) i traslladar-hi la seu del partit.\n- Contractar en Gerard d'assesor en I+D+i\n\n---\n\nDoncs res Quim, que estava recordant els bons moments i m'he adonat que la meitat són de borratxos i l'altra meitat al bar. Amb tot que se m'ha anat la castanya i he acabat escrivint això enlloc de una dedicatòria. Però bé, has de saber que ha sigut un plaer y un gose compartir aquest temps amb tu i que els meus records desltil·len 'epicitat' al respecte.\nPer molts anys, rebossants de sexe, epicitat i relax.\n\n---\n\nSi estàs cansat de la sobrietat dels partits polítics actuals vota pel canvi, vota PQuim.\nPerquè borratxos, ens entenem millor.\n\n\"El ron de los Mohitzos del PQuim fue subministrado por el gobierno del dictador Maduro a través de una red de entramados empresariales en Cuba\"\nEl Mundo\n\n\"Albert Rivera le hace ojitos al PQuim. El líder del partido Naranja propone a los del GinTonic una coalición electoral. El delegado general de los de la cerveza, Quim Motger, responde tajante: 'Tú tu coca y yo mis mohitzos'\"\nLa Sexta\n\n\"Los borrachos del PQuim se situan como segunda fuerza a dos puntos de PACMA\"\nEl Telediario de la 1"
     }
   }
